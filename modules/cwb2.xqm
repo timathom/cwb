@@ -11,7 +11,7 @@ function cwb2:search-by-category(
     $category as xs:string
 ) {
     <choices>{
-        db:open("topics")/*/*[name/text() = $category]/subject
+        db:open("topics")/*/*[lower-case(name/text()) eq lower-case($category)]/subject
     }</choices>
 };
 
