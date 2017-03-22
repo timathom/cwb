@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xf:group
+    class="info-group"
+    id="creator-info"
+    ref=".[@type = 'creator']"
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:xf="http://www.w3.org/2002/xforms">
+    <xf:group
+        id="creator-input-subform"/>
+    <xf:label
+        class="group-label">Creator information</xf:label>
+    <xf:group
+        id="select-creator-type">
+        <xf:select1
+            appearance="minimal"
+            incremental="true"
+            ref="type">
+            <xf:label class="col-md-2">Type</xf:label>
+            <xf:item>
+                <xf:label>person</xf:label>
+                <xf:value>pers</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>organization</xf:label>
+                <xf:value>org</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>government agency</xf:label>
+                <xf:value>govt</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>other</xf:label>
+                <xf:value>other</xf:value>
+            </xf:item>
+        </xf:select1>
+    </xf:group>
+    <xf:input
+        id="creator-last-input"
+        ref="a/pers/last">
+        <xf:label
+            class="col-md-2">Last name</xf:label>
+    </xf:input>
+
+    <!--<xf:trigger
+        class="btn btn-default add">
+        <xf:label>Á</xf:label>
+        <xf:setcaret
+            control="creator-last-input"
+            ev:event="DOMActivate"                            
+            value="instance('chars')/chars/Aacute"/>
+    </xf:trigger>-->
+    <xf:group>
+        <xf:input
+            id="creator-first-input"
+            ref="a/pers/first">
+            <xf:label
+                class="col-md-2">First name</xf:label>
+        </xf:input>
+    </xf:group>
+    <xf:group>
+        <xf:input
+            class="wide"
+            id="creator-corp-name-input"
+            ref="a/corp">
+            <xf:label
+                class="col-md-2">Name</xf:label>
+        </xf:input>
+    </xf:group>
+    <xf:group
+        id="select-creator-role">
+        <xf:select1
+            appearance="minimal"
+            incremental="true"
+            ref="rel">
+            <xf:label class="col-md-2">Role</xf:label>
+            <xf:item>
+                <xf:label>author</xf:label>
+                <xf:value>author</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>artist</xf:label>
+                <xf:value>artist</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>photographer</xf:label>
+                <xf:value>photographer</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>compiler</xf:label>
+                <xf:value>compiler</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>other</xf:label>
+                <xf:value>null</xf:value>
+            </xf:item>
+        </xf:select1>
+    </xf:group>
+</xf:group>

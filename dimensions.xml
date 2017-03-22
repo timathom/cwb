@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xf:group
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:xf="http://www.w3.org/2002/xforms">
+
+    <xf:input
+        bind="integer-dimensions"
+        class="integer"
+        id="dimensions-input"
+        incremental="true">
+        <xf:label
+            class="control-label">Dimensions (<xf:output
+                value="@unit"/>)</xf:label>
+        <xf:alert>Must be a whole number</xf:alert>
+        <xf:hint>Round up to the nearest whole centimeter</xf:hint>
+    </xf:input>
+
+
+</xf:group>

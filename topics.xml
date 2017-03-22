@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xf:group
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:xf="http://www.w3.org/2002/xforms">    
+    <xf:group>
+        <xf:select1
+            appearance="minimal"
+            incremental="true"
+            id="conditional-category"
+            ref=".[@type = 'topic']/category">
+            <xf:label class="col-md-2">Category</xf:label>
+            <xf:item>
+                <xf:label/>
+                <xf:value/>
+            </xf:item>
+            <xf:itemset
+                ref="instance('categories')/category">
+                <xf:label
+                    ref="@name"/>
+                <xf:copy
+                    ref="."/>
+            </xf:itemset>
+           <!-- <xf:action
+                ev:event="xforms-value-changed">
+               
+            </xf:action>-->
+        </xf:select1>
+    </xf:group>
+    <xf:group>
+        <xf:select1
+            appearance="minimal"
+            id="conditional-subject"
+            incremental="true"
+            ref=".[@type = 'topic']/subjects/subject">
+            <xf:label class="col-md-2">Subject</xf:label>
+            <xf:item>
+                <xf:label/>
+                <xf:value/>
+            </xf:item>
+            <xf:itemset
+                ref="../choices/subject">
+                <xf:label
+                    ref="@name"/>
+                <xf:copy
+                    ref="."/>
+            </xf:itemset>
+        </xf:select1>
+    </xf:group>
+</xf:group>

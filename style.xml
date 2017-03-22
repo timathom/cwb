@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xf:group
+    ref="instance('state')"
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:xf="http://www.w3.org/2002/xforms">
+    <xf:select1
+        appearance="minimal"
+        incremental="true"
+        ref="bodyColor">
+        <xf:label class="label label-default">Background color</xf:label>
+        <xf:item>
+            <xf:label>light gray</xf:label>
+            <xf:value>lightgray</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>dark orange</xf:label>
+            <xf:value>darkorange</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>dark blue</xf:label>
+            <xf:value>darkblue</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>black</xf:label>
+            <xf:value>black</xf:value>
+        </xf:item>
+    </xf:select1>
+</xf:group>

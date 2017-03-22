@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data xmlns="">
+    <country code="ag" geo="s-ag---">https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/50px-Flag_of_Argentina.svg.png</country>
+    <country code="bh" geo="ncbh---">https://upload.wikimedia.org/wikipedia/commons/thumb/e/e7/Flag_of_Belize.svg/50px-Flag_of_Belize.svg.png</country>
+    <country code="bo" geo="s-bo---">https://upload.wikimedia.org/wikipedia/commons/thumb/4/48/Flag_of_Bolivia.svg/50px-Flag_of_Bolivia.svg.png</country>
+    <country code="bl" geo="s-bl---">https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Flag_of_Brazil.svg/50px-Flag_of_Brazil.svg.png</country>
+    <country code="cl" geo="s-cl---">https://upload.wikimedia.org/wikipedia/commons/thumb/7/78/Flag_of_Chile.svg/50px-Flag_of_Chile.svg.png</country>
+    <country code="ck" geo="s-ck---">https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Colombia.svg/50px-Flag_of_Colombia.svg.png</country>
+    <country code="cr" geo="nccr---">https://upload.wikimedia.org/wikipedia/commons/thumb/f/f2/Flag_of_Costa_Rica.svg/50px-Flag_of_Costa_Rica.svg.png</country>
+    <country code="cu" geo="nwcu---">https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Flag_of_Cuba.svg/50px-Flag_of_Cuba.svg.png</country>
+    <country code="dr" geo="nwdr---">https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_the_Dominican_Republic.svg/50px-Flag_of_the_Dominican_Republic.svg.png</country>
+    <country code="ec" geo="s-ec---">https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/50px-Flag_of_Ecuador.svg.png</country>
+    <country code="es" geo="nwes---">https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/50px-Flag_of_El_Salvador.svg.png</country>
+    <country code="gt" geo="nwgt---">https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/50px-Flag_of_Guatemala.svg.png</country>
+    <country code="ht" geo="nwht---">https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/50px-Flag_of_Haiti.svg.png</country>
+    <country code="ho" geo="ncho---">https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Flag_of_Honduras.svg/50px-Flag_of_Honduras.svg.png</country>
+    <country code="mx" geo="n-mx---">https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/50px-Flag_of_Mexico.svg.png</country>
+    <country code="nq" geo="ncnq---">https://upload.wikimedia.org/wikipedia/commons/thumb/1/19/Flag_of_Nicaragua.svg/50px-Flag_of_Nicaragua.svg.png</country>
+    <country code="pn" geo="ncpn---">https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Flag_of_Panama.svg/50px-Flag_of_Panama.svg.png</country>
+    <country code="py" geo="s-py---">https://upload.wikimedia.org/wikipedia/commons/thumb/2/27/Flag_of_Paraguay.svg/50px-Flag_of_Paraguay.svg.png</country>
+    <country code="pe" geo="s-pe---">https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Flag_of_Peru.svg/50px-Flag_of_Peru.svg.png</country>
+    <country code="po" geo="e-po---">https://upload.wikimedia.org/wikipedia/commons/thumb/5/5c/Flag_of_Portugal.svg/50px-Flag_of_Portugal.svg.png</country>
+    <country code="pr" geo="nwpr---">https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Flag_of_Puerto_Rico.svg/50px-Flag_of_Puerto_Rico.svg.png</country>
+    <country code="sp" geo="e-sp---">https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/50px-Flag_of_Spain.svg.png</country>
+    <country code="xxu" geo="n-us---">https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Flag_of_the_United_States.svg/50px-Flag_of_the_United_States.svg.png</country>
+    <country code="uy" geo="s-uy---">https://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Flag_of_Uruguay.svg/50px-Flag_of_Uruguay.svg.png</country>
+    <country code="ve" geo="s-ve---">https://upload.wikimedia.org/wikipedia/commons/thumb/0/06/Flag_of_Venezuela.svg/50px-Flag_of_Venezuela.svg.png</country>
+</data>

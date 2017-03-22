@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xf:group
+    class="info-group"
+    id="contrib-info"
+    ref=".[@type = 'contrib']"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:xf="http://www.w3.org/2002/xforms">
+    <xf:label
+        class="group-label">Contributor information</xf:label>
+    <xf:group
+        id="select-contrib-type">
+        <xf:select1
+            appearance="minimal"
+            incremental="true"
+            ref="type">
+            <xf:label class="col-md-2">Type</xf:label>
+            <xf:item>
+                <xf:label>person</xf:label>
+                <xf:value>pers</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>organization</xf:label>
+                <xf:value>org</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>government agency</xf:label>
+                <xf:value>govt</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>other</xf:label>
+                <xf:value>other</xf:value>
+            </xf:item>
+        </xf:select1>
+    </xf:group>
+    <xf:group>
+        <xf:input
+            id="contrib-last-input"
+            ref="a/pers/last">
+            <xf:label class="col-md-2">Last name</xf:label>
+        </xf:input>
+    </xf:group>
+    <xf:group>
+        <xf:input
+            id="contrib-first-input"
+            ref="a/pers/first">
+            <xf:label class="col-md-2">First name</xf:label>
+        </xf:input>
+    </xf:group>
+    <xf:input
+        class="wide"
+        id="contrib-corp-name-input"
+        ref="a/corp">
+        <xf:label class="col-md-2">Name</xf:label>
+    </xf:input>
+    <xf:group
+        id="select-contrib-role">
+        <xf:select1
+            appearance="minimal"
+            incremental="true"
+            ref="rel">
+            <xf:label class="col-md-2">Role</xf:label>
+            <xf:item>
+                <xf:label>editor</xf:label>
+                <xf:value>editor</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>translator</xf:label>
+                <xf:value>translator</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>publisher</xf:label>
+                <xf:value>publisher</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>issuing body</xf:label>
+                <xf:value>issuing-body</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>illustrator</xf:label>
+                <xf:value>illustrator</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>writer of supplementary textual content</xf:label>
+                <xf:value>writer-of-supplementary-textual-content</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>other</xf:label>
+                <xf:value>other</xf:value>
+            </xf:item>
+        </xf:select1>
+    </xf:group>
+</xf:group>

@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xf:group
+    ref=".[@type = 'topic']/geo"
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:xf="http://www.w3.org/2002/xforms">
+
+    
+    <xf:group>
+        <xf:output
+            mediatype="image/*"
+            ref="instance('countries')/*[@geo = current()/@code]"/>
+        <xf:select1
+            appearance="minimal"
+            incremental="true"
+            ref="@code">
+            <xf:label
+                class="col-md-2">Geographic subject</xf:label>
+            <xf:hint>Please select a country or region</xf:hint>
+            <xf:item>
+                <xf:label>Argentina</xf:label>
+                <xf:value>s-ag---</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Belize</xf:label>
+                <xf:value>ncbh---</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Bolivia</xf:label>
+                <xf:value>s-bo---</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Brazil</xf:label>
+                <xf:value>s-bl---</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Central America</xf:label>
+                <xf:value>nc-----</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Chile</xf:label>
+                <xf:value>s-cl---</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Colombia</xf:label>
+                <xf:value>s-ck---</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Costa Rica</xf:label>
+                <xf:value>nccr---</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Cuba</xf:label>
+                <xf:value>nwcu---</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Dominican Republic</xf:label>
+                <xf:value>nwdr---</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Ecuador</xf:label>
+                <xf:value>s-ec---</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>El Salvador</xf:label>
+                <xf:value>nces---</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Europe</xf:label>
+                <xf:value>e------</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Guatemala</xf:label>
+                <xf:value>ncgt---</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Haiti</xf:label>
+                <xf:value>nwht---</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Honduras</xf:label>
+                <xf:value>ncho---</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Latin America</xf:label>
+                <xf:value>cl-----</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Mexico</xf:label>
+                <xf:value>n-mx---</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Nicaragua</xf:label>
+                <xf:value>ncnq---</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>North America</xf:label>
+                <xf:value>n------</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Panama</xf:label>
+                <xf:value>ncpn---</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Paraguay</xf:label>
+                <xf:value>s-py---</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Peru</xf:label>
+                <xf:value>s-pe---</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Portugal</xf:label>
+                <xf:value>e-po---</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Puerto Rico</xf:label>
+                <xf:value>nwpr---</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>South America</xf:label>
+                <xf:value>s------</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Spain</xf:label>
+                <xf:value>e-sp---</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>US</xf:label>
+                <xf:value>n-us---</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Uruguay</xf:label>
+                <xf:value>s-uy---</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Venezuela</xf:label>
+                <xf:value>s-ve---</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Other</xf:label>
+                <xf:value>other--</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>Unknown</xf:label>
+                <xf:value>xxx----</xf:value>
+            </xf:item>
+        </xf:select1>
+
+        <xf:input
+            bind="geo-other"
+            class="small-input">
+            <xf:label
+                class="control-label conditional-label">Please specify</xf:label>
+        </xf:input>
+    </xf:group>
+
+</xf:group>

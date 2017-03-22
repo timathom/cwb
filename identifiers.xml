@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xf:group
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:xf="http://www.w3.org/2002/xforms">
+    <xf:input
+        id="barcode-input"
+        incremental="true"
+        ref=".[@type = 'barcode']">
+        <xf:label class="col-md-2">Barcode</xf:label>
+        <xf:alert>14-digits</xf:alert>
+    </xf:input>
+    <xf:input
+        id="isbn-input"
+        incremental="true"
+        ref=".[@type = 'isbn']">
+        <xf:label class="col-md-2">ISBN</xf:label>
+        <xf:alert>10-13 digits, no hyphens. May end in "X"</xf:alert>
+    </xf:input>
+</xf:group>

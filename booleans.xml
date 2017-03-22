@@ -1,0 +1,241 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xf:group    
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:xf="http://www.w3.org/2002/xforms">
+
+    <xf:group
+        ref="data[@type = 'ill']">
+        <xf:label
+            class="group-label">illustrations</xf:label>
+        <div
+            class="btn-group">
+            <xf:group
+                class="btn {choose(. = 'false', 'btn-success active', 'btn-default')}">
+                <xf:trigger>
+                    <xf:label>No</xf:label>
+                    <xf:action
+                        ev:event="DOMActivate">
+                        <xf:setvalue
+                            ref="."
+                            value="false()"/>
+                    </xf:action>
+                </xf:trigger>
+            </xf:group>
+            <xf:group
+                class="btn {choose(. = 'true', 'btn-success active', 'btn-default')}">
+                <xf:trigger>
+                    <xf:label>Yes</xf:label>
+                    <xf:action
+                        ev:event="DOMActivate">
+                        <xf:setvalue
+                            ref="."
+                            value="true()"/>
+                    </xf:action>
+                </xf:trigger>
+            </xf:group>
+        </div>
+    </xf:group>
+    <xf:group
+        bind="boolean-color">
+        <xf:label
+            class="group-label">color</xf:label>
+        <div
+            class="btn-group">
+            <xf:group
+                class="btn {choose(. = 'false', 'btn-success active', 'btn-default')}">
+                <xf:trigger>
+                    <xf:label>No</xf:label>
+                    <xf:action
+                        ev:event="DOMActivate">
+                        <xf:setvalue
+                            ref="."
+                            value="false()"/>
+                    </xf:action>
+                </xf:trigger>
+            </xf:group>
+            <xf:group
+                class="btn {choose(. = 'true', 'btn-success active', 'btn-default')}">
+                <xf:trigger>
+                    <xf:label>Yes</xf:label>
+                    <xf:action
+                        ev:event="DOMActivate">
+                        <xf:setvalue
+                            ref="."
+                            value="true()"/>
+                    </xf:action>
+                </xf:trigger>
+            </xf:group>
+        </div>
+    </xf:group>
+
+    <xf:group
+        ref="data[@type = 'bibRef']">
+        <xf:label
+            class="group-label">bibliographic references</xf:label>
+        <div
+            class="btn-group">
+            <xf:group
+                class="btn {choose(. = 'false', 'btn-success active', 'btn-default')}">
+                <xf:trigger>
+                    <xf:label>No</xf:label>
+                    <xf:action
+                        ev:event="DOMActivate">
+                        <xf:setvalue
+                            ref="."
+                            value="false()"/>
+                    </xf:action>
+                </xf:trigger>
+            </xf:group>
+            <xf:group
+                class="btn {choose(. = 'true', 'btn-success active', 'btn-default')}">
+                <xf:trigger>
+                    <xf:label>Yes</xf:label>
+                    <xf:action
+                        ev:event="DOMActivate">
+                        <xf:setvalue
+                            ref="."
+                            value="true()"/>
+                    </xf:action>
+                </xf:trigger>
+            </xf:group>
+        </div>
+    </xf:group>
+
+    <xf:group
+        ref="data[@type = 'index']">
+        <xf:label
+            class="group-label">index</xf:label>
+        <div
+            class="btn-group">
+            <xf:group
+                class="btn {choose(. = 'false', 'btn-success active', 'btn-default')}">
+                <xf:trigger>
+                    <xf:label>No</xf:label>
+                    <xf:action
+                        ev:event="DOMActivate">
+                        <xf:setvalue
+                            ref="."
+                            value="false()"/>
+                    </xf:action>
+                </xf:trigger>
+            </xf:group>
+            <xf:group
+                class="btn {choose(. = 'true', 'btn-success active', 'btn-default')}">
+                <xf:trigger>
+                    <xf:label>Yes</xf:label>
+                    <xf:action
+                        ev:event="DOMActivate">
+                        <xf:setvalue
+                            ref="."
+                            value="true()"/>
+                    </xf:action>
+                </xf:trigger>
+            </xf:group>
+        </div>
+    </xf:group>
+
+    <xf:group
+        ref="data[@type = 'govt']">
+        <xf:label
+            class="group-label">government publication</xf:label>
+        <div
+            class="btn-group">
+            <xf:group
+                class="btn {choose(. = 'false', 'btn-success active', 'btn-default')}">
+                <xf:trigger>
+                    <xf:label>No</xf:label>
+                    <xf:action
+                        ev:event="DOMActivate">
+                        <xf:setvalue
+                            ref="."
+                            value="false()"/>
+                    </xf:action>
+                </xf:trigger>
+            </xf:group>
+            <xf:group
+                class="btn {choose(. = 'true', 'btn-success active', 'btn-default')}">
+                <xf:trigger>
+                    <xf:label>Yes</xf:label>
+                    <xf:action
+                        ev:event="DOMActivate">
+                        <xf:setvalue
+                            ref="."
+                            value="true()"/>
+                    </xf:action>
+                </xf:trigger>
+            </xf:group>
+        </div>
+    </xf:group>
+    
+    <xf:select1
+        appearance="minimal"
+        bind="required-govt-level"
+        incremental="true">
+        <xf:label
+            class="control-label">Level of government</xf:label>
+        <xf:alert>Please select a level</xf:alert>
+        <xf:item>
+            <xf:label>Federal/national</xf:label>
+            <xf:value>f</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>International</xf:label>
+            <xf:value>i</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>Local</xf:label>
+            <xf:value>l</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>State, provincial, etc.</xf:label>
+            <xf:value>s</xf:value>
+        </xf:item>       
+        <xf:item>
+            <xf:label>Other</xf:label>
+            <xf:value>other</xf:value>
+        </xf:item>
+    </xf:select1>
+    <xf:group>
+        <xf:input
+            bind="required-govt-other"
+            class="small-input">
+            <xf:label
+                class="control-label conditional-label">Please specify</xf:label>
+        </xf:input>
+    </xf:group>
+
+    <xf:group
+        ref="data[@type = 'conf']">
+        <xf:label
+            class="group-label">conference proceedings</xf:label>
+        <div
+            class="btn-group">
+            <xf:group
+                class="btn {choose(. = 'false', 'btn-success active', 'btn-default')}">
+                <xf:trigger>
+                    <xf:label>No</xf:label>
+                    <xf:action
+                        ev:event="DOMActivate">
+                        <xf:setvalue
+                            ref="."
+                            value="false()"/>
+                    </xf:action>
+                </xf:trigger>
+            </xf:group>
+            <xf:group
+                class="btn {choose(. = 'true', 'btn-success active', 'btn-default')}">
+                <xf:trigger>
+                    <xf:label>Yes</xf:label>
+                    <xf:action
+                        ev:event="DOMActivate">
+                        <xf:setvalue
+                            ref="."
+                            value="true()"/>
+                    </xf:action>
+                </xf:trigger>
+            </xf:group>
+        </div>
+    </xf:group>
+
+
+</xf:group>

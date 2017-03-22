@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data
+    xmlns="">
+    <chars>
+        <Aacute>Á</Aacute>
+        <aacute>á</aacute>
+        <atilde>ã</atilde>
+        <eacute>é</eacute>
+        <Eacute>É</Eacute>
+        <ecirc>ê</ecirc>
+        <iacute>í</iacute>
+        <Iacute>Í</Iacute>
+        <oacute>ó</oacute>
+        <Oacute>Ó</Oacute>
+        <ocirc>ô</ocirc>
+        <otilde>õ</otilde>
+        <uacute>ú</uacute>
+        <Uacute>Ú</Uacute>
+        <uuml>ü</uuml>
+        <ntilde>ñ</ntilde>
+    </chars>
+</data>

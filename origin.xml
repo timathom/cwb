@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xf:group
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:xf="http://www.w3.org/2002/xforms">
+    <xf:group
+        ref="instance('countries')/*[@code = instance('desc')/data[@type = 'origin']/@code]">
+        <xf:output
+            mediatype="image/*"
+            ref="."/>
+    </xf:group>
+    <xf:select1
+        appearance="minimal"
+        incremental="true"
+        ref="data[@type = 'origin']/@code">
+        <xf:label
+            class="control-label">Origin</xf:label>
+        <xf:alert>Please select a country.</xf:alert>
+
+        <xf:item>
+            <xf:label>Argentina</xf:label>
+            <xf:value>ag</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>Bolivia</xf:label>
+            <xf:value>bo</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>Brazil</xf:label>
+            <xf:value>bl</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>Chile</xf:label>
+            <xf:value>cl</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>Colombia</xf:label>
+            <xf:value>ck</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>Costa Rica</xf:label>
+            <xf:value>cr</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>Cuba</xf:label>
+            <xf:value>cu</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>Dominican Republic</xf:label>
+            <xf:value>dr</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>Ecuador</xf:label>
+            <xf:value>ec</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>El Salvador</xf:label>
+            <xf:value>es</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>Guatemala</xf:label>
+            <xf:value>gt</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>Haiti</xf:label>
+            <xf:value>ht</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>Honduras</xf:label>
+            <xf:value>ho</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>Mexico</xf:label>
+            <xf:value>mx</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>Nicaragua</xf:label>
+            <xf:value>nq</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>Panama</xf:label>
+            <xf:value>pn</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>Paraguay</xf:label>
+            <xf:value>py</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>Peru</xf:label>
+            <xf:value>pe</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>Portugal</xf:label>
+            <xf:value>po</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>Puerto Rico</xf:label>
+            <xf:value>pr</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>Spain</xf:label>
+            <xf:value>sp</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>US</xf:label>
+            <xf:value>xxu</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>Uruguay</xf:label>
+            <xf:value>uy</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>Venezuela</xf:label>
+            <xf:value>ve</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>Other</xf:label>
+            <xf:value>other</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>Unknown</xf:label>
+            <xf:value>xx</xf:value>
+        </xf:item>
+        <xf:action
+            ev:event="xforms-value-changed">
+            <xf:setvalue
+                ref="instance('desc')/data[@type = 'topic']/geo/@code"
+                value="instance('countries')/*[@code = current()]/@geo"/>            
+        </xf:action>
+    </xf:select1>
+    <xf:group>
+        <xf:input
+            bind="required-origin-other"
+            class="small-input">
+            <xf:label
+                class="control-label conditional-label">Please specify</xf:label>
+        </xf:input>
+    </xf:group>
+
+</xf:group>

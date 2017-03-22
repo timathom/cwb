@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xf:group
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:xf="http://www.w3.org/2002/xforms">
+
+    <xf:input
+        bind="integer-extent"
+        class="integer"
+        id="extent-input"
+        incremental="true">
+        <xf:label
+            class="control-label">Extent</xf:label>
+        <xf:alert>Must be a whole number</xf:alert>
+    </xf:input>
+
+
+    <xf:select1
+        appearance="minimal"
+        bind="unit-extent"
+        incremental="true">
+        <xf:label
+            class="control-label hidden">Unit</xf:label>
+        <xf:item>
+            <xf:label>pages</xf:label>
+            <xf:value>pp</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>unnumbered</xf:label>
+            <xf:value>upp</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>volume</xf:label>
+            <xf:value>vol</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>volumes</xf:label>
+            <xf:value>vols</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>other</xf:label>
+            <xf:value>other</xf:value>
+        </xf:item>
+    </xf:select1>
+    <xf:group>
+
+        <xf:input
+            bind="other-extent"
+            class="small-input">
+            <xf:label
+                class="control-label conditional-label">Please specify</xf:label>
+        </xf:input>
+    </xf:group>
+
+</xf:group>

@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xf:group
+    id="provision-fields"
+    ref=".[@type = 'provision']"
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:xf="http://www.w3.org/2002/xforms">
+    <xf:label
+        class="group-label">Provider information</xf:label>
+    <xf:group
+        class="info-group"
+        id="select-provision-type">
+        <xf:select1
+            appearance="minimal"
+            incremental="true"
+            ref="type">
+            <xf:label class="col-md-2">Type</xf:label>
+            <xf:item>
+                <xf:label>publication</xf:label>
+                <xf:value>publication</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>production</xf:label>
+                <xf:value>production</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>distribution</xf:label>
+                <xf:value>distribution</xf:value>
+            </xf:item>
+            <xf:item>
+                <xf:label>manufacture</xf:label>
+                <xf:value>manufacture</xf:value>
+            </xf:item>
+        </xf:select1>
+    </xf:group>
+    <table
+        class="table">
+        <thead>
+            <tr>
+                <th/>
+                <th/>
+                <th/>
+            </tr>
+        </thead>
+        <tbody>
+            <xf:repeat
+                id="repeat-provision"
+                ref="data">
+                <tr>
+                    <td>
+                        <xf:group
+                            class="info-group"
+                            id="provision-place"
+                            ref=".[@type = 'a']">
+                            <!--<xf:label
+                                class="group-label">Place information</xf:label>-->
+                           
+                            <xf:input
+                                class="wide"
+                                id="provision-place-input"
+                                ref="val">
+                                <xf:label class="col-md-2">Place</xf:label>
+                            </xf:input>
+                            <xf:group>
+                                <xf:select1
+                                    appearance="minimal"
+                                    incremental="true"
+                                    ref="source">
+                                    <xf:label class="col-md-2">Source</xf:label>
+                                    <xf:item>
+                                        <xf:label>transcribed</xf:label>
+                                        <xf:value>transcribed</xf:value>
+                                    </xf:item>
+                                    <xf:item>
+                                        <xf:label>inferred</xf:label>
+                                        <xf:value>inferred</xf:value>
+                                    </xf:item>
+                                    <xf:item>
+                                        <xf:label>not able to determine</xf:label>
+                                        <xf:value>not-identified</xf:value>
+                                    </xf:item>
+                                </xf:select1>
+                            </xf:group>
+                        </xf:group>
+
+                        <xf:group
+                            class="info-group"
+                            id="provision-provider"
+                            ref=".[@type = 'b']">
+                            <!--<xf:label
+                                class="group-label">Agent information</xf:label>-->
+                            <xf:input
+                                class="wide"
+                                id="provision-provider-input"
+                                ref="val">
+                                <xf:label class="col-md-2">Provider</xf:label>
+                            </xf:input>
+                            <xf:group>
+                                <xf:select1
+                                    appearance="minimal"
+                                    incremental="true"
+                                    ref="source">
+                                    <xf:label class="col-md-2">Source</xf:label>
+                                    <xf:item>
+                                        <xf:label>transcribed</xf:label>
+                                        <xf:value>transcribed</xf:value>
+                                    </xf:item>
+                                    <xf:item>
+                                        <xf:label>inferred</xf:label>
+                                        <xf:value>inferred</xf:value>
+                                    </xf:item>
+                                    <xf:item>
+                                        <xf:label>not able to determine</xf:label>
+                                        <xf:value>not-identified</xf:value>
+                                    </xf:item>
+                                </xf:select1>
+                            </xf:group>
+                        </xf:group>
+
+                        <xf:group
+                            class="info-group"
+                            id="provision-date"
+                            ref=".[@type = 'c']">
+                            <!--<xf:label
+                                class="group-label">Date information</xf:label>-->
+                            <xf:input
+                                id="provision-date-input"
+                                ref="val">
+                                <xf:label class="col-md-2">Date</xf:label>
+                            </xf:input>
+                            <xf:group
+                                id="select-provision-date-type">
+                                <xf:select1
+                                    appearance="minimal"
+                                    incremental="true"
+                                    ref="type">
+                                    <xf:label class="col-md-2">Type</xf:label>
+                                    <xf:item>
+                                        <xf:label>copyright</xf:label>
+                                        <xf:value>copyright</xf:value>
+                                    </xf:item>
+                                    <xf:item>
+                                        <xf:label>publication</xf:label>
+                                        <xf:value>publication</xf:value>
+                                    </xf:item>
+                                    <xf:item>
+                                        <xf:label>printing</xf:label>
+                                        <xf:value>printing</xf:value>
+                                    </xf:item>
+                                    <xf:item>
+                                        <xf:label>not able to determine</xf:label>
+                                        <xf:value>not-identified</xf:value>
+                                    </xf:item>
+                                </xf:select1>
+                            </xf:group>
+                            <xf:group
+                                id="select-provision-date-source">
+                                <xf:select1
+                                    appearance="minimal"
+                                    incremental="true"
+                                    ref="source">
+                                    <xf:label class="col-md-2">Source</xf:label>
+                                    <xf:item>
+                                        <xf:label>transcribed</xf:label>
+                                        <xf:value>transcribed</xf:value>
+                                    </xf:item>
+                                    <xf:item>
+                                        <xf:label>inferred</xf:label>
+                                        <xf:value>inferred</xf:value>
+                                    </xf:item>
+                                    <xf:item>
+                                        <xf:label>uncertain</xf:label>
+                                        <xf:value>uncertain</xf:value>
+                                    </xf:item>
+                                </xf:select1>
+                            </xf:group>
+
+                        </xf:group>
+                    </td>
+                    <td
+                        class="button-cell">
+
+                        <div
+                            class="btn-group data-group"
+                            role="group">
+                            <xf:trigger
+                                class="btn btn-default add">
+                                <xf:label>+</xf:label>
+                                <xf:action
+                                    ev:event="DOMActivate">
+                                    <xf:insert
+                                        at="index('repeat-provision')"
+                                        origin="instance('proto')/data/data[@type = context()/@type]"
+                                        ref="."/>
+                                </xf:action>
+                            </xf:trigger>
+                            <xf:trigger
+                                class="btn btn-danger remove"
+                                ref=".[count(preceding-sibling::data[@type = context()/@type]) &gt; 0]">
+                                <xf:label>-</xf:label>
+                                <xf:delete
+                                    ev:event="DOMActivate"
+                                    ref="."/>
+                            </xf:trigger>
+                        </div>
+
+                    </td>
+                </tr>
+            </xf:repeat>
+        </tbody>
+    </table>
+</xf:group>

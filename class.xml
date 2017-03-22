@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xf:group
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:xf="http://www.w3.org/2002/xforms">
+    <xf:group>
+        <xf:input
+            id="lccn-input"
+            ref=".[@type = 'class']/a">
+            <xf:label
+                class="col-md-2">Class number</xf:label>
+        </xf:input>
+    </xf:group>
+    <xf:group>
+        <xf:input
+            id="lccn-cutter-input"
+            ref=".[@type = 'class']/b">
+            <xf:label
+                class="col-md-2">Cutter number</xf:label>
+        </xf:input>
+    </xf:group>
+</xf:group>
