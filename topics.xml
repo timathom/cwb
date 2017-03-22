@@ -11,8 +11,8 @@
             ref=".[@type = 'topic']/category">
             <xf:label class="col-md-2">Category</xf:label>
             <xf:item>
-                <xf:label/>
-                <xf:value/>
+                <xf:label>Select a category</xf:label>
+                <xf:value>null</xf:value>
             </xf:item>
             <xf:itemset
                 ref="instance('categories')/category">
@@ -35,8 +35,8 @@
             ref=".[@type = 'topic']/subjects/subject">
             <xf:label class="col-md-2">Subject</xf:label>
             <xf:item>
-                <xf:label/>
-                <xf:value/>
+                <xf:label>Select a subject</xf:label>
+                <xf:value>null</xf:value>
             </xf:item>
             <xf:itemset
                 ref="../choices/subject">

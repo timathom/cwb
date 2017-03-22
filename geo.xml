@@ -18,6 +18,10 @@
                 class="col-md-2">Geographic subject</xf:label>
             <xf:hint>Please select a country or region</xf:hint>
             <xf:item>
+                <xf:label>Select a geographic subject</xf:label>
+                <xf:value>null</xf:value>
+            </xf:item>
+            <xf:item>
                 <xf:label>Argentina</xf:label>
                 <xf:value>s-ag---</xf:value>
             </xf:item>

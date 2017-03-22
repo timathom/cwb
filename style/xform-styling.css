@@ -13,9 +13,9 @@
         background: inherit; 
         border: 1px;         
         font-size: inherit;
-        background-color: inherit;
+        background-color: inherit !important;
         border-color: inherit;
-        color: inherit;        
+        color: inherit !important;        
     }
     
     select {
@@ -32,7 +32,7 @@
         margin-bottom: 5px;
         background: inherit; 
         border: 1px;   */      
-        font-size: larger !important;
+        /*font-size: larger !important;*/
         /*background-color: inherit;
         border-color: inherit;
         color: inherit;*/    
@@ -316,8 +316,9 @@ td{
     font-weight: 600;
 }
 .group-label{
-    font-size: larger;
+    /*font-size: larger;*/
     font-weight: 600;
+    border-bottom: 2px solid #ddd;
 }
 /*.inline-group{
     display: inline;
@@ -347,8 +348,14 @@ td{
 .integer input{
     width: 3em !important;
 }
+.mixed-integer input{
+    width: 5em !important;
+}
 .small-input input{
     width: 8em !important;
+}
+.smaller-input input{
+    width: 5em !important;
 }
 .table-display{
     display: table;
@@ -361,10 +368,9 @@ td{
     text-align: right;
     
 }
-.conditional-label{
-    margin-left: 1%;
-    
-}
+/*.conditional-label{
+    margin-left: 1%;   
+}*/
 .side-panel{
     /*border-right: 1px double black;*/ 
     

@@ -1,22 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <xf:group
+    ref="data[@type = 'origin']"
     xmlns="http://www.w3.org/1999/xhtml"
     xmlns:ev="http://www.w3.org/2001/xml-events"
     xmlns:xf="http://www.w3.org/2002/xforms">
-    <xf:group
-        ref="instance('countries')/*[@code = instance('desc')/data[@type = 'origin']/@code]">
+    <xf:group>
         <xf:output
             mediatype="image/*"
-            ref="."/>
+            ref="instance('countries')/*[@code = current()/@code]"/>
     </xf:group>
     <xf:select1
         appearance="minimal"
         incremental="true"
-        ref="data[@type = 'origin']/@code">
+        ref="@code">
         <xf:label
             class="control-label">Origin</xf:label>
         <xf:alert>Please select a country.</xf:alert>
-
         <xf:item>
             <xf:label>Argentina</xf:label>
             <xf:value>ag</xf:value>
@@ -125,7 +124,7 @@
             ev:event="xforms-value-changed">
             <xf:setvalue
                 ref="instance('desc')/data[@type = 'topic']/geo/@code"
-                value="instance('countries')/*[@code = current()]/@geo"/>            
+                value="instance('countries')/*[@code = current()]/@geo"/>
         </xf:action>
     </xf:select1>
     <xf:group>

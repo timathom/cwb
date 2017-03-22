@@ -54,16 +54,12 @@
                     </xf:select1>
                     <xf:group>
                         <xf:input
-                            class="smaller-input"
-                            incremental="true"
+                            class="small-input"
                             ref="@other">
                             <xf:label
                                 class="control-label conditional-label">Please specify</xf:label>
                         </xf:input>
                     </xf:group>
-                </td>
-                <td
-                    class="button-cell">
                     <div
                         class="btn-group data-group"
                         role="group">
@@ -88,6 +84,9 @@
                         </xf:trigger>
                     </div>
                 </td>
+                <!--<td
+                        class="button-cell">                                                                        
+                    </td>-->
             </tr>
         </xf:repeat>
     </tbody>

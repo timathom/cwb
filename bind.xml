@@ -33,10 +33,10 @@
         relevant="../@unit = 'other'"
         required="../@unit = 'other'"/>
     <xf:bind
-        id="integer-extent"
+        id="mixed-integer-extent"
         ref="data[@type = 'extent']"
         required="true()"
-        type="xs:integer"/>
+        type="xs:string"/>
     <xf:bind
         id="unit-extent"
         ref="data[@type = 'extent']/@unit"
@@ -101,6 +101,6 @@
     <xf:bind
         ref="data[@type = 'contrib']/a/corp"
         relevant="../../type = 'org' or ../../type = 'govt'"/>
-    
-    
+
+
 </xf:bind>

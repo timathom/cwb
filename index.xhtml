@@ -66,6 +66,15 @@
                 id="categories"
                 resource="categories.xml"/>
             <xf:instance
+                id="content"
+                resource="content-types.xml"/>
+            <xf:instance
+                id="carrier"
+                resource="carrier-types.xml"/>
+            <xf:instance
+                id="media"
+                resource="media-types.xml"/>
+            <xf:instance
                 id="state">
                 <data
                     xmlns="">
@@ -90,7 +99,7 @@
                 targetref="data[index('repeat-data')][@type = 'topic']/subjects/choices"
                 validate="false">
                 <xf:resource
-                    value="concat('/basex/search/', instance('desc')/*[index('repeat-data')][@type = 'topic']/category/*/@name)"/>
+                    value="concat('/search/', instance('desc')/*[index('repeat-data')][@type = 'topic']/category/*/@name)"/>
                 <xf:action
                     ev:event="xforms-submit-error">
                     <xf:message>
@@ -109,9 +118,7 @@
                 targetref="instance('state')/save">
                 <xf:action
                     ev:event="xforms-submit-done">
-                    <xf:setvalue
-                        ref="instance('state')/status"
-                        value="''"/>
+                    <xf:setvalue ref="instance('state')/status" value="''"/>
                 </xf:action>
                 <xf:action
                     ev:event="xforms-submit-error">
@@ -211,9 +218,9 @@
                 <div
                     class="row">
                     <div
-                        class="col-md-3 side-panel">
+                        class="col-md-4 side-panel">
                         <table
-                            class="table">
+                            class="table table-condensed">
                             <tbody>
                                 <tr>
                                     <td>
@@ -245,11 +252,29 @@
                                             href="origin.xml"/>
                                     </td>
                                 </tr>
+                                <!--<tr>
+                                    <td>
+                                        <xi:include
+                                            href="content.xml"/>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td>
+                                        <xi:include
+                                            href="carrier.xml"/>
+                                    </td>
+                                </tr>-->
+                                <tr>
+                                    <td>
+                                        <xi:include
+                                            href="media.xml"/>
+                                    </td>
+                                </tr>
                             </tbody>
                         </table>
                     </div>
                     <div
-                        class="col-md-9">
+                        class="col-md-8">
                         <table
                             class="table">
                             <thead>
@@ -319,22 +344,10 @@
                                         </td>
                                     </tr>
                                 </xf:repeat>
-
-
-
-
                             </tbody>
                         </table>
                     </div>
                 </div>
-
-
-
-
-
-
-
-
             </xf:group>
         </div>
         <!-- Latest compiled and minified JavaScript -->
@@ -342,7 +355,5 @@
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script>
         <script src="/basex/static/cwb/xphoneforms/build/js/setcaret.js" type="text/javascript"></script>
-
-
     </body>
 </html>

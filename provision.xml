@@ -14,7 +14,8 @@
             appearance="minimal"
             incremental="true"
             ref="type">
-            <xf:label class="col-md-2">Type</xf:label>
+            <xf:label
+                class="col-md-2">Type</xf:label>
             <xf:item>
                 <xf:label>publication</xf:label>
                 <xf:value>publication</xf:value>
@@ -34,10 +35,9 @@
         </xf:select1>
     </xf:group>
     <table
-        class="table">
+        class="table table-condensed">
         <thead>
             <tr>
-                <th/>
                 <th/>
                 <th/>
             </tr>
@@ -54,19 +54,21 @@
                             ref=".[@type = 'a']">
                             <!--<xf:label
                                 class="group-label">Place information</xf:label>-->
-                           
+
                             <xf:input
                                 class="wide"
                                 id="provision-place-input"
                                 ref="val">
-                                <xf:label class="col-md-2">Place</xf:label>
+                                <xf:label
+                                    class="col-md-2">Place</xf:label>
                             </xf:input>
                             <xf:group>
                                 <xf:select1
                                     appearance="minimal"
                                     incremental="true"
                                     ref="source">
-                                    <xf:label class="col-md-2">Source</xf:label>
+                                    <xf:label
+                                        class="col-md-2">Source</xf:label>
                                     <xf:item>
                                         <xf:label>transcribed</xf:label>
                                         <xf:value>transcribed</xf:value>
@@ -92,15 +94,18 @@
                             <xf:input
                                 class="wide"
                                 id="provision-provider-input"
+                                incremental="true"
                                 ref="val">
-                                <xf:label class="col-md-2">Provider</xf:label>
+                                <xf:label
+                                    class="col-md-2">Provider</xf:label>
                             </xf:input>
                             <xf:group>
                                 <xf:select1
                                     appearance="minimal"
                                     incremental="true"
                                     ref="source">
-                                    <xf:label class="col-md-2">Source</xf:label>
+                                    <xf:label
+                                        class="col-md-2">Source</xf:label>
                                     <xf:item>
                                         <xf:label>transcribed</xf:label>
                                         <xf:value>transcribed</xf:value>
@@ -125,8 +130,10 @@
                                 class="group-label">Date information</xf:label>-->
                             <xf:input
                                 id="provision-date-input"
+                                incremental="true"
                                 ref="val">
-                                <xf:label class="col-md-2">Date</xf:label>
+                                <xf:label
+                                    class="col-md-2">Date</xf:label>
                             </xf:input>
                             <xf:group
                                 id="select-provision-date-type">
@@ -134,7 +141,8 @@
                                     appearance="minimal"
                                     incremental="true"
                                     ref="type">
-                                    <xf:label class="col-md-2">Type</xf:label>
+                                    <xf:label
+                                        class="col-md-2">Type</xf:label>
                                     <xf:item>
                                         <xf:label>copyright</xf:label>
                                         <xf:value>copyright</xf:value>
@@ -159,7 +167,8 @@
                                     appearance="minimal"
                                     incremental="true"
                                     ref="source">
-                                    <xf:label class="col-md-2">Source</xf:label>
+                                    <xf:label
+                                        class="col-md-2">Source</xf:label>
                                     <xf:item>
                                         <xf:label>transcribed</xf:label>
                                         <xf:value>transcribed</xf:value>

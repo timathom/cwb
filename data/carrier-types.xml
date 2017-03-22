@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<carrier
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <type>aperture card</type>
+    <type>audio belt</type>
+    <type>audio cartridge</type>
+    <type>audio cylinder</type>
+    <type>audio disc</type>
+    <type>audio roll</type>
+    <type>audio wire reel</type>
+    <type>audiocassette</type>
+    <type>audiotape reel</type>
+    <type>card</type>
+    <type>computer card</type>
+    <type>computer chip cartridge</type>
+    <type>computer disc</type>
+    <type>computer disc cartridge</type>
+    <type>computer tape cartridge</type>
+    <type>computer tape cassette</type>
+    <type>computer tape reel</type>
+    <type>film cartridge</type>
+    <type>film cassette</type>
+    <type>film reel</type>
+    <type>film roll</type>
+    <type>filmslip</type>
+    <type>filmstrip</type>
+    <type>filmstrip cartridge</type>
+    <type>flipchart</type>
+    <type>microfiche</type>
+    <type>microfiche cassette</type>
+    <type>microfilm cartridge</type>
+    <type>microfilm cassette</type>
+    <type>microfilm reel</type>
+    <type>microfilm roll</type>
+    <type>microfilm slip</type>
+    <type>microopaque</type>
+    <type>microscope slide</type>
+    <type>object</type>
+    <type>online resource</type>
+    <type>overhead transparency</type>
+    <type>roll</type>
+    <type>sheet</type>
+    <type>slide</type>
+    <type>sound-track reel</type>
+    <type>stereograph card</type>
+    <type>stereograph disc</type>
+    <type>video cartridge</type>
+    <type>videocassette</type>
+    <type>videodisc</type>
+    <type>videotape reel</type>
+    <type>volume</type>
+</carrier>

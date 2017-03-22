@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<content
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:rdakit="http://metadataregistry.org/uri/profile/rdakit/"
+    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+    xmlns:reg="http://metadataregistry.org/uri/profile/regap/"
+    xmlns:skos="http://www.w3.org/2004/02/skos/core#">
+    <type>cartographic dataset</type>
+    <type>cartographic image</type>
+    <type>cartographic moving image</type>
+    <type>cartographic tactile image</type>
+    <type>cartographic tactile three-dimensional form</type>
+    <type>cartographic three-dimensional form</type>
+    <type>computer dataset</type>
+    <type>computer program</type>
+    <type>notated movement</type>
+    <type>notated music</type>
+    <type>performed music</type>
+    <type>sounds</type>
+    <type>spoken word</type>
+    <type>still image</type>
+    <type>tactile image</type>
+    <type>tactile notated movement</type>
+    <type>tactile notated music</type>
+    <type>tactile text</type>
+    <type>tactile three-dimensional form</type>
+    <type>text</type>
+    <type>three-dimensional form</type>
+    <type>three-dimensional moving image</type>
+    <type>two-dimensional moving image</type>
+</content>

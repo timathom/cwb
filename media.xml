@@ -12,21 +12,35 @@
     </thead>
     <tbody>
         <xf:repeat
-            bind="integer-dimensions"
-            id="repeat-dimensions-input">
+            id="repeat-media-input"
+            ref="data[@type = 'mediaType']">
             <tr>
                 <td>
-                    <xf:input
-                        class="integer"
-                        id="dimensions-input"
+                    <!--<xf:group>
+                        <xf:input
+                            class="small-input"
+                            incremental="true"
+                            ref="@material">
+                            <xf:label
+                                class="control-label conditional-label">Please specify</xf:label>
+                        </xf:input>
+                    </xf:group>-->
+                    <xf:select1
+                        appearance="minimal"
                         incremental="true"
-                        ref=".">
-                        <xf:label
-                            class="control-label">Dimensions (<xf:output
-                                value="@unit"/>)</xf:label>
-                        <xf:alert>Must be a whole number</xf:alert>
-                        <xf:hint>Round up to the nearest whole centimeter. If an item's width is greater than its height, add a second field to record the width</xf:hint>
-                    </xf:input>
+                        ref="term">
+                        <xf:item>
+                            <xf:label>Select a media type</xf:label>
+                            <xf:value>null</xf:value>
+                        </xf:item>
+                        <xf:itemset
+                            ref="instance('media')/type">
+                            <xf:label
+                                ref="."/>
+                            <xf:copy
+                                ref="."/>
+                        </xf:itemset>
+                    </xf:select1>
                 </td>
                 <td
                     class="button-cell">
@@ -39,7 +53,7 @@
                             <xf:action
                                 ev:event="DOMActivate">
                                 <xf:insert
-                                    at="index('repeat-extent-input')"
+                                    at="index('repeat-media-input')"
                                     origin="instance('proto')/data[@type = context()/@type]"
                                     ref="."/>
                             </xf:action>

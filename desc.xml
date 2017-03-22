@@ -6,10 +6,11 @@
         type="barcode"
         xsi:type="xs:integer"/>
     <data
-        type="isbn"/>        
+        type="isbn"/>
     <data
         type="title">
-        <a/>
+        <a
+            article=""/>
         <b/>
         <c/>
         <other
@@ -47,7 +48,7 @@
             uri=""/>
         <type
             uri=""/>
-    </data>    
+    </data>
     <data
         type="provision">
         <data
@@ -79,15 +80,15 @@
     </data>
     <data
         type="topic">
-        <category/>
+        <category>Select a category</category>
         <subjects>
             <choices/>
-            <subject/>
+            <subject>Select a subject</subject>
         </subjects>
         <geo
             code=""
             other=""
-            uri=""/>
+            uri="">Select a geographic subject</geo>
     </data>
     <data
         type="class"
@@ -95,15 +96,20 @@
         <a/>
         <b/>
     </data>
-   
+
 
     <data
         type="bibRef"
         xsi:type="xs:boolean">false</data>
     <data
         code=""
+        material=""
+        other=""
+        term=""
         type="carrierType"
-        uri=""/>
+        uri="">
+        <term/>
+    </data>
     <data
         type="color"
         xsi:type="xs:boolean">false</data>
@@ -112,8 +118,13 @@
         xsi:type="xs:boolean">false</data>
     <data
         code=""
+        material=""
+        other=""
+        term=""
         type="contentType"
-        uri=""/>
+        uri="">
+        <term/>
+    </data>
     <data
         other=""
         type="extent"
@@ -136,8 +147,12 @@
         uri=""/>
     <data
         code=""
+        material=""
+        other=""
         type="mediaType"
-        uri=""/>
+        uri="">
+        <term/>
+    </data>
     <data
         code=""
         other=""
