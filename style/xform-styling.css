@@ -285,6 +285,7 @@ td{
 .btn{
     margin: 4px 0;
     padding: 4px;
+    color: inherit !important;
 }
 .left-half,
 .right-half{
