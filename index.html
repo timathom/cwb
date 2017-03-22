@@ -29,7 +29,7 @@ var d1 = new Date();
 XsltForms_globals.htmltime = d1 - xsltforms_d0;
 }
 var schema = new XsltForms_schema(xsltforms_subform,"http://bibfram.es/cwb/", "cwb.xsd", {});
-new XsltForms_atomicType().setSchema(schema).setName("").put("base", "xs:integer").put("pattern", /^(\d{14})$/);
+new XsltForms_atomicType().setSchema(schema).setName("barcode").put("base", "xs:integer").put("pattern", /^(\d{14})$/);
 new XsltForms_atomicType().setSchema(schema).setName("isbn").put("base", "xs:string").put("pattern", /^(^\d{9,12}[\d|X]$|^$)$/);
 XsltForms_schema.registerPrefix('xs', 'http://www.w3.org/2001/XMLSchema');
 XsltForms_schema.registerPrefix('cwb', 'http://bibfram.es/cwb/');
@@ -535,7 +535,7 @@ XsltForms_browser.events.attach(window, "load", xsltforms_init);
 </script><script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js">/* <![CDATA[ */
 
 /* ]]> */
-</script><script type="text/javascript" src="../xphoneforms/build/js/setcaret.js">/* <![CDATA[ */
+</script><script type="text/javascript" src="/basex/static/cwb/xphoneforms/build/js/setcaret.js">/* <![CDATA[ */
 
 /* ]]> */
 </script><!--XsltForms_MagicSeparator--><div id="xsltforms_console">&nbsp;</div><div id="statusPanel">... Loading ...&nbsp;</div></body></html>
