@@ -90,7 +90,7 @@
                 targetref="data[index('repeat-data')][@type = 'topic']/subjects/choices"
                 validate="false">
                 <xf:resource
-                    value="concat('/search/', instance('desc')/*[index('repeat-data')][@type = 'topic']/category/*/@name)"/>
+                    value="concat('/basex/search/', instance('desc')/*[index('repeat-data')][@type = 'topic']/category/*/@name)"/>
                 <xf:action
                     ev:event="xforms-submit-error">
                     <xf:message>
