@@ -10,9 +10,12 @@
     <data
         type="title">
         <a
-            article=""/>
-        <b/>
-        <c/>
+            article=""
+            chars=""/>
+        <b
+            chars=""/>
+        <c
+            chars=""/>
         <other
             code=""
             tag=""/>
@@ -98,7 +101,11 @@
         <c/>
     </data>
 
-
+    <data
+        format=""
+        other=""
+        type="accompany"
+        xsi:type="xs:boolean">false</data>
     <data
         type="bibRef"
         xsi:type="xs:boolean">false</data>
@@ -106,10 +113,10 @@
         code=""
         material=""
         other=""
-        term=""
+        part=""
         type="carrierType"
         uri="">
-        <term/>
+        <term>volume</term>
     </data>
     <data
         type="color"
@@ -121,10 +128,10 @@
         code=""
         material=""
         other=""
-        term=""
+        part=""
         type="contentType"
         uri="">
-        <term/>
+        <term>text</term>
     </data>
     <data
         other=""
@@ -150,9 +157,10 @@
         code=""
         material=""
         other=""
+        part=""
         type="mediaType"
         uri="">
-        <term/>
+        <term>unmediated</term>
     </data>
     <data
         code=""

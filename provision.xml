@@ -4,9 +4,20 @@
     ref=".[@type = 'provision']"
     xmlns="http://www.w3.org/1999/xhtml"
     xmlns:ev="http://www.w3.org/2001/xml-events"
-    xmlns:xf="http://www.w3.org/2002/xforms">
+    xmlns:xf="http://www.w3.org/2002/xforms"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
     <xf:label
         class="group-label">Provider information</xf:label>
+    <xf:group
+        ref="instance('state')/active[@control = 'provision-place-input'][. = true()]">
+        <xi:include
+            href="characters/characters-provision-place.xml"/>
+    </xf:group>
+    <xf:group
+        ref="instance('state')/active[@control = 'provision-provider-input'][. = true()]">
+        <xi:include
+            href="characters/characters-provision-provider.xml"/>
+    </xf:group>
     <xf:group
         class="info-group"
         id="select-provision-type">
@@ -36,12 +47,6 @@
     </xf:group>
     <table
         class="table table-condensed">
-        <thead>
-            <tr>
-                <th/>
-                <th/>
-            </tr>
-        </thead>
         <tbody>
             <xf:repeat
                 id="repeat-provision"
@@ -61,6 +66,15 @@
                                 ref="val">
                                 <xf:label
                                     class="col-md-2">Place</xf:label>
+                                <xf:action
+                                    ev:event="DOMFocusIn">
+                                    <xf:setvalue
+                                        ref="instance('state')/active[@control = 'provision-provider-input']"
+                                        value="false()"/>
+                                    <xf:setvalue
+                                        ref="instance('state')/active[@control = 'provision-place-input']"
+                                        value="true()"/>
+                                </xf:action>
                             </xf:input>
                             <xf:group>
                                 <xf:select1
@@ -98,6 +112,15 @@
                                 ref="val">
                                 <xf:label
                                     class="col-md-2">Provider</xf:label>
+                                <xf:action
+                                    ev:event="DOMFocusIn">
+                                    <xf:setvalue
+                                        ref="instance('state')/active[@control = 'provision-place-input']"
+                                        value="false()"/>
+                                    <xf:setvalue
+                                        ref="instance('state')/active[@control = 'provision-provider-input']"
+                                        value="true()"/>
+                                </xf:action>
                             </xf:input>
                             <xf:group>
                                 <xf:select1

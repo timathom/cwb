@@ -16,7 +16,7 @@
                         incremental="true"
                         ref=".">
                         <xf:label
-                            class="control-label">Extent</xf:label>
+                            class="control-label col-md-2">Extent</xf:label>
                         <xf:alert>Positive integer or Roman numerals</xf:alert>
                     </xf:input>
                     <xf:select1
@@ -52,7 +52,7 @@
                             incremental="true"
                             ref="@other">
                             <xf:label
-                                class="control-label conditional-label">Please specify</xf:label>
+                                class="control-label conditional-label col-md-2">Please specify</xf:label>
                         </xf:input>
                     </xf:group>
                 </td>

@@ -1,65 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <table
-    class="table table-condensed"
+    class="table"
     xmlns="http://www.w3.org/1999/xhtml"
     xmlns:ev="http://www.w3.org/2001/xml-events"
     xmlns:xf="http://www.w3.org/2002/xforms">
-    <thead>
-        <tr>
-            <th/>
-            <th/>
-        </tr>
-    </thead>
     <tbody>
         <xf:repeat
-            bind="mixed-integer-extent"
-            id="repeat-extent-input">
+            id="repeat-content-input"
+            ref="data[@type = 'contentType']">
             <tr>
                 <td>
-                    <xf:input
-                        class="mixed-integer"
-                        id="extent-input"
-                        incremental="true"
-                        ref=".">
-                        <xf:label
-                            class="control-label">Extent</xf:label>
-                        <xf:alert>Positive integer or Roman numerals</xf:alert>
-                    </xf:input>
-                    <xf:select1
-                        appearance="minimal"
-                        incremental="true"
-                        ref="@unit">
-                        <xf:label
-                            class="control-label hidden">Unit</xf:label>
-                        <xf:item>
-                            <xf:label>pages</xf:label>
-                            <xf:value>pp</xf:value>
-                        </xf:item>
-                        <xf:item>
-                            <xf:label>unnumbered</xf:label>
-                            <xf:value>upp</xf:value>
-                        </xf:item>
-                        <xf:item>
-                            <xf:label>volume</xf:label>
-                            <xf:value>vol</xf:value>
-                        </xf:item>
-                        <xf:item>
-                            <xf:label>volumes</xf:label>
-                            <xf:value>vols</xf:value>
-                        </xf:item>
-                        <xf:item>
-                            <xf:label>other</xf:label>
-                            <xf:value>other</xf:value>
-                        </xf:item>
-                    </xf:select1>
+                    <xf:group>
+                        <xf:select1
+                            appearance="minimal"
+                            incremental="true"
+                            ref="@part">
+                            <xf:label
+                                class="col-md-2">Part</xf:label>
+                            <xf:item>
+                                <xf:label>book</xf:label>
+                                <xf:value>book</xf:value>
+                            </xf:item>
+                            <xf:item>
+                                <xf:label>DVD</xf:label>
+                                <xf:value>dvd</xf:value>
+                            </xf:item>
+                            <xf:item>
+                                <xf:label>CD-ROM</xf:label>
+                                <xf:value>cd-rom</xf:value>
+                            </xf:item>
+                            <xf:item>
+                                <xf:label>other</xf:label>
+                                <xf:value>other</xf:value>
+                            </xf:item>
+                        </xf:select1>
+                    </xf:group>
                     <xf:group>
                         <xf:input
                             class="small-input"
+                            incremental="true"
                             ref="@other">
                             <xf:label
-                                class="control-label conditional-label">Please specify</xf:label>
+                                class="control-label conditional-label col-md-2">Specify</xf:label>
                         </xf:input>
                     </xf:group>
+                    <xf:group>
+                        <xf:select1
+                            appearance="minimal"
+                            incremental="true"
+                            ref="term">
+                            <xf:label
+                                class="col-md-2">Content</xf:label>
+                            <xf:item>
+                                <xf:label>Select a content type</xf:label>
+                                <xf:value>null</xf:value>
+                            </xf:item>
+                            <xf:itemset
+                                ref="instance('content')/type">
+                                <xf:label
+                                    ref="."/>
+                                <xf:copy
+                                    ref="."/>
+                            </xf:itemset>
+                        </xf:select1>
+                    </xf:group>
+                </td>
+                <td>
                     <div
                         class="btn-group data-group"
                         role="group">
@@ -69,7 +75,7 @@
                             <xf:action
                                 ev:event="DOMActivate">
                                 <xf:insert
-                                    at="index('repeat-extent-input')"
+                                    at="index('repeat-content-input')"
                                     origin="instance('proto')/data[@type = context()/@type]"
                                     ref="."/>
                             </xf:action>
@@ -84,9 +90,6 @@
                         </xf:trigger>
                     </div>
                 </td>
-                <!--<td
-                        class="button-cell">                                                                        
-                    </td>-->
             </tr>
         </xf:repeat>
     </tbody>

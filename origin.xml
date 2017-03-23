@@ -14,7 +14,7 @@
         incremental="true"
         ref="@code">
         <xf:label
-            class="control-label">Origin</xf:label>
+            class="control-label col-md-2">Origin</xf:label>
         <xf:alert>Please select a country.</xf:alert>
         <xf:item>
             <xf:label>Argentina</xf:label>
@@ -132,7 +132,7 @@
             bind="required-origin-other"
             class="small-input">
             <xf:label
-                class="control-label conditional-label">Please specify</xf:label>
+                class="control-label conditional-label col-md-2">Please specify</xf:label>
         </xf:input>
     </xf:group>
 

@@ -12,7 +12,7 @@
             ref="Aacute">
             <xf:label>Á</xf:label>
             <xf:setcaret
-                control="title-a-input"
+                control="creator-last-input"
                 ev:event="DOMActivate"
                 value="."/>
         </xf:trigger>
@@ -21,7 +21,16 @@
             ref="aacute">
             <xf:label>á</xf:label>
             <xf:setcaret
-                control="title-a-input"
+                control="creator-last-input"
+                ev:event="DOMActivate"
+                value="."/>
+        </xf:trigger>
+        <xf:trigger
+            class="btn btn-default add"
+            ref="ccedil">
+            <xf:label>ç</xf:label>
+            <xf:setcaret
+                control="creator-last-input"
                 ev:event="DOMActivate"
                 value="."/>
         </xf:trigger>
@@ -30,7 +39,7 @@
             ref="Eacute">
             <xf:label>É</xf:label>
             <xf:setcaret
-                control="title-a-input"
+                control="creator-last-input"
                 ev:event="DOMActivate"
                 value="."/>
         </xf:trigger>
@@ -39,7 +48,7 @@
             ref="eacute">
             <xf:label>é</xf:label>
             <xf:setcaret
-                control="title-a-input"
+                control="creator-last-input"
                 ev:event="DOMActivate"
                 value="."/>
         </xf:trigger>
@@ -48,7 +57,7 @@
             ref="ecirc">
             <xf:label>ê</xf:label>
             <xf:setcaret
-                control="title-a-input"
+                control="creator-last-input"
                 ev:event="DOMActivate"
                 value="."/>
         </xf:trigger>
@@ -57,7 +66,7 @@
             ref="Iacute">
             <xf:label>Í</xf:label>
             <xf:setcaret
-                control="title-a-input"
+                control="creator-last-input"
                 ev:event="DOMActivate"
                 value="."/>
         </xf:trigger>
@@ -66,7 +75,7 @@
             ref="iacute">
             <xf:label>í</xf:label>
             <xf:setcaret
-                control="title-a-input"
+                control="creator-last-input"
                 ev:event="DOMActivate"
                 value="."/>
         </xf:trigger>
@@ -75,7 +84,7 @@
             ref="Oacute">
             <xf:label>Ó</xf:label>
             <xf:setcaret
-                control="title-a-input"
+                control="creator-last-input"
                 ev:event="DOMActivate"
                 value="."/>
         </xf:trigger>
@@ -84,7 +93,7 @@
             ref="oacute">
             <xf:label>ó</xf:label>
             <xf:setcaret
-                control="title-a-input"
+                control="creator-last-input"
                 ev:event="DOMActivate"
                 value="."/>
         </xf:trigger>
@@ -93,7 +102,7 @@
             ref="ocirc">
             <xf:label>ô</xf:label>
             <xf:setcaret
-                control="title-a-input"
+                control="creator-last-input"
                 ev:event="DOMActivate"
                 value="."/>
         </xf:trigger>
@@ -102,7 +111,7 @@
             ref="otilde">
             <xf:label>õ</xf:label>
             <xf:setcaret
-                control="title-a-input"
+                control="creator-last-input"
                 ev:event="DOMActivate"
                 value="."/>
         </xf:trigger>
@@ -111,7 +120,7 @@
             ref="Uacute">
             <xf:label>Ú</xf:label>
             <xf:setcaret
-                control="title-a-input"
+                control="creator-last-input"
                 ev:event="DOMActivate"
                 value="."/>
         </xf:trigger>
@@ -120,7 +129,7 @@
             ref="uacute">
             <xf:label>ú</xf:label>
             <xf:setcaret
-                control="title-a-input"
+                control="creator-last-input"
                 ev:event="DOMActivate"
                 value="."/>
         </xf:trigger>
@@ -129,7 +138,7 @@
             ref="uuml">
             <xf:label>ü</xf:label>
             <xf:setcaret
-                control="title-a-input"
+                control="creator-last-input"
                 ev:event="DOMActivate"
                 value="."/>
         </xf:trigger>
@@ -138,7 +147,7 @@
             ref="ntilde">
             <xf:label>ñ</xf:label>
             <xf:setcaret
-                control="title-a-input"
+                control="creator-last-input"
                 ev:event="DOMActivate"
                 value="."/>
         </xf:trigger>

@@ -27,6 +27,15 @@
         </xf:trigger>
         <xf:trigger
             class="btn btn-default add"
+            ref="ccedil">
+            <xf:label>ç</xf:label>
+            <xf:setcaret
+                control="title-b-input"
+                ev:event="DOMActivate"
+                value="."/>
+        </xf:trigger>
+        <xf:trigger
+            class="btn btn-default add"
             ref="Eacute">
             <xf:label>É</xf:label>
             <xf:setcaret

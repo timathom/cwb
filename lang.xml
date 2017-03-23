@@ -9,7 +9,7 @@
         bind="required-lang-code"
         incremental="true">
         <xf:label
-            class="control-label">Language</xf:label>
+            class="control-label col-md-2">Language</xf:label>
         <xf:alert>Please select a language</xf:alert>
         <xf:item>
             <xf:label>Spanish</xf:label>
@@ -41,7 +41,7 @@
             bind="required-lang-other"
             class="small-input">
             <xf:label
-                class="control-label conditional-label">Please specify</xf:label>
+                class="control-label conditional-label col-md-2">Please specify</xf:label>
         </xf:input>
     </xf:group>
 

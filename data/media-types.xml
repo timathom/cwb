@@ -7,10 +7,10 @@
     xmlns:skos="http://www.w3.org/2004/02/skos/core#">
     <type>audio</type>
     <type>computer</type>
-    <type>microform</type>
+  <!--  <type>microform</type>
     <type>microscopic</type>
     <type>projected</type>
-    <type>stereographic</type>
+    <type>stereographic</type>-->
     <type>unmediated</type>
     <type>video</type>
 </media>

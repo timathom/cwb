@@ -16,7 +16,7 @@
                         incremental="true"
                         ref=".">
                         <xf:label
-                            class="control-label">Dimensions (<xf:output
+                            class="control-label col-md-2">Size (<xf:output
                                 value="@unit"/>)</xf:label>
                         <xf:alert>Must be a whole number</xf:alert>
                         <xf:hint>Round up to the nearest whole centimeter. If an item's width is greater than its height, add a second field to record the width</xf:hint>

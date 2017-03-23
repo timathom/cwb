@@ -8,7 +8,7 @@
     xmlns:xf="http://www.w3.org/2002/xforms"
     xmlns:xi="http://www.w3.org/2001/XInclude">
     <xf:label
-        class="group-label">Title information</xf:label>    
+        class="group-label">Title information</xf:label>
     <xf:input
         class="smaller-input"
         incremental="true"
@@ -16,28 +16,55 @@
         <xf:label>Initial article</xf:label>
         <xf:hint>If the title starts with an article (la, el, las, los, a, o, as, os, etc.), type it here, separate from the rest of the title</xf:hint>
     </xf:input>
-    <xi:include
-        href="characters/characters-title-a.xml"/>
+    <xf:group
+        ref="instance('state')/active[@control = 'title-a-input'][. = true()]">
+        <xi:include
+            href="characters/characters-title-a.xml"/>
+    </xf:group>
     <xf:textarea
         id="title-a-input"
         incremental="true"
         ref="a">
         <xf:label>Title</xf:label>
+        <xf:action
+            ev:event="DOMFocusIn">
+            <xf:setvalue
+                ref="instance('state')/active[@control = 'title-a-input']"
+                value="true()"/>
+        </xf:action>
     </xf:textarea>
-    <xi:include
-        href="characters/characters-title-b.xml"/>
+    <xf:group
+        ref="instance('state')/active[@control = 'title-b-input'][. = true()]">
+        <xi:include
+            href="characters/characters-title-b.xml"/>
+    </xf:group>
     <xf:textarea
         id="title-b-input"
         incremental="true"
         ref="b">
         <xf:label>Subtitle</xf:label>
+        <xf:action
+            ev:event="DOMFocusIn">
+            <xf:setvalue
+                ref="instance('state')/active[@control = 'title-b-input']"
+                value="true()"/>
+        </xf:action>        
     </xf:textarea>
-    <xi:include
-        href="characters/characters-title-c.xml"/>
+    <xf:group
+        ref="instance('state')/active[@control = 'title-c-input'][. = true()]">
+        <xi:include
+            href="characters/characters-title-c.xml"/>
+    </xf:group>
     <xf:textarea
         id="title-c-input"
         incremental="true"
         ref="c">
         <xf:label>Statement of responsibility</xf:label>
+        <xf:action
+            ev:event="DOMFocusIn">
+            <xf:setvalue
+                ref="instance('state')/active[@control = 'title-c-input']"
+                value="true()"/>
+        </xf:action>        
     </xf:textarea>
 </xf:group>

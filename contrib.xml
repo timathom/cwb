@@ -4,16 +4,33 @@
     id="contrib-info"
     ref=".[@type = 'contrib']"
     xmlns:ev="http://www.w3.org/2001/xml-events"
-    xmlns:xf="http://www.w3.org/2002/xforms">
+    xmlns:xf="http://www.w3.org/2002/xforms"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
     <xf:label
         class="group-label">Contributor information</xf:label>
+    <xf:group
+        ref="instance('state')/active[@control = 'contrib-last-input'][. = true()]">
+        <xi:include
+            href="characters/characters-contrib-last.xml"/>
+    </xf:group>
+    <xf:group
+        ref="instance('state')/active[@control = 'contrib-first-input'][. = true()]">
+        <xi:include
+            href="characters/characters-contrib-first.xml"/>
+    </xf:group>
+    <xf:group
+        ref="instance('state')/active[@control = 'contrib-corp-name-input'][. = true()]">
+        <xi:include
+            href="characters/characters-contrib-corp-name.xml"/>
+    </xf:group>
     <xf:group
         id="select-contrib-type">
         <xf:select1
             appearance="minimal"
             incremental="true"
             ref="type">
-            <xf:label class="col-md-2">Type</xf:label>
+            <xf:label
+                class="col-md-2">Type</xf:label>
             <xf:item>
                 <xf:label>person</xf:label>
                 <xf:value>pers</xf:value>
@@ -36,21 +53,42 @@
         <xf:input
             id="contrib-last-input"
             ref="a/pers/last">
-            <xf:label class="col-md-2">Last name</xf:label>
+            <xf:label
+                class="col-md-2">Last name</xf:label>
+            <xf:action
+                ev:event="DOMFocusIn">
+                <xf:setvalue
+                    ref="instance('state')/active[@control = 'contrib-first-input']"
+                    value="true()"/>
+            </xf:action>
         </xf:input>
     </xf:group>
     <xf:group>
         <xf:input
             id="contrib-first-input"
             ref="a/pers/first">
-            <xf:label class="col-md-2">First name</xf:label>
+            <xf:label
+                class="col-md-2">First name</xf:label>
+            <xf:action
+                ev:event="DOMFocusIn">
+                <xf:setvalue
+                    ref="instance('state')/active[@control = 'contrib-first-input']"
+                    value="true()"/>
+            </xf:action>
         </xf:input>
     </xf:group>
     <xf:input
         class="wide"
         id="contrib-corp-name-input"
         ref="a/corp">
-        <xf:label class="col-md-2">Name</xf:label>
+        <xf:label
+            class="col-md-2">Name</xf:label>
+        <xf:action
+            ev:event="DOMFocusIn">
+            <xf:setvalue
+                ref="instance('state')/active[@control = 'contrib-first-input']"
+                value="true()"/>
+        </xf:action>
     </xf:input>
     <xf:group
         id="select-contrib-role">
@@ -58,7 +96,8 @@
             appearance="minimal"
             incremental="true"
             ref="rel">
-            <xf:label class="col-md-2">Role</xf:label>
+            <xf:label
+                class="col-md-2">Role</xf:label>
             <xf:item>
                 <xf:label>editor</xf:label>
                 <xf:value>editor</xf:value>

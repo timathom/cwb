@@ -67,13 +67,13 @@
                 resource="categories.xml"/>
             <xf:instance
                 id="content"
-                resource="content-types.xml"/>
+                resource="data/content-types.xml"/>
             <xf:instance
                 id="carrier"
-                resource="carrier-types.xml"/>
+                resource="data/carrier-types.xml"/>
             <xf:instance
                 id="media"
-                resource="media-types.xml"/>
+                resource="data/media-types.xml"/>
             <xf:instance
                 id="state">
                 <data
@@ -84,6 +84,22 @@
                         control="title-b-input"></active>
                     <active
                         control="title-c-input"></active>
+                    <active
+                        control="creator-last-input"></active>
+                    <active
+                        control="creator-first-input"></active>
+                    <active
+                        control="creator-corp-name-input"></active>
+                    <active
+                        control="contrib-last-input"></active>
+                    <active
+                        control="contrib-first-input"></active>
+                    <active
+                        control="contrib-corp-name-input"></active>
+                    <active
+                        control="provision-place-input"></active>
+                    <active
+                        control="provision-provider-input"></active>
                     <bodyColor></bodyColor>
                     <fontColor></fontColor>
                 </data>
@@ -105,7 +121,7 @@
                 targetref="data[index('repeat-data')][@type = 'topic']/subjects"
                 validate="false">
                 <xf:resource
-                    value="concat('/basex/search/', instance('desc')/*[index('repeat-data')][@type = 'topic']/category/*/@name)"/>
+                    value="concat('/search/', instance('desc')/*[index('repeat-data')][@type = 'topic']/category/*/@name)"/>
                 <xf:action
                     ev:event="xforms-submit-error">
                     <xf:message>
@@ -124,9 +140,7 @@
                 targetref="instance('state')/save">
                 <xf:action
                     ev:event="xforms-submit-done">
-                    <xf:setvalue
-                        ref="instance('state')/status"
-                        value="''"/>
+                    <xf:setvalue ref="instance('state')/status" value="''"/>
                 </xf:action>
                 <xf:action
                     ev:event="xforms-submit-error">
@@ -195,23 +209,17 @@
             <xf:action
                 ev:event="DOMFocusIn"
                 ev:observer="title-a-input">
-                <xf:setvalue
-                    ref="instance('state')/active[@control = 'title-a-input']"
-                    value="true()"/>
+                <xf:setvalue ref="instance('state')/active[@control = 'title-a-input']" value="true()"/>
             </xf:action>
             <xf:action
                 ev:event="DOMFocusIn"
                 ev:observer="title-b-input[@control = 'title-b-input']">
-                <xf:setvalue
-                    ref="instance('state')/active"
-                    value="true()"/>
+                <xf:setvalue ref="instance('state')/active" value="true()"/>
             </xf:action>
             <xf:action
                 ev:event="DOMFocusIn"
                 ev:observer="title-c-input[@control = 'title-c-input']">
-                <xf:setvalue
-                    ref="instance('state')/active"
-                    value="true()"/>
+                <xf:setvalue ref="instance('state')/active" value="true()"/>
             </xf:action>
 
 
@@ -283,7 +291,7 @@
                                             href="origin.xml"/>
                                     </td>
                                 </tr>
-                                <!--<tr>
+                                <tr>
                                     <td>
                                         <xi:include
                                             href="content.xml"/>
@@ -294,7 +302,7 @@
                                         <xi:include
                                             href="carrier.xml"/>
                                     </td>
-                                </tr>-->
+                                </tr>
                                 <tr>
                                     <td>
                                         <xi:include
@@ -338,7 +346,7 @@
                                             <xi:include
                                                 href="contrib.xml"/>
                                             <xi:include
-                                                href="geo.xml"/>                                            
+                                                href="geo.xml"/>
                                             <xi:include
                                                 href="title.xml"/>
                                             <xi:include

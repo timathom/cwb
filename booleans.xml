@@ -237,5 +237,74 @@
         </div>
     </xf:group>
 
+    <xf:group
+        ref="data[@type = 'accompany']">
+        <xf:label
+            class="group-label">accompanying material</xf:label>        
+        <div
+            class="btn-group">
+            <xf:group
+                class="btn {choose(. = 'false', 'btn-success active', 'btn-default')}">
+                <xf:trigger>
+                    <xf:label>No</xf:label>
+                    <xf:action
+                        ev:event="DOMActivate">
+                        <xf:setvalue
+                            ref="."
+                            value="false()"/>
+                    </xf:action>
+                </xf:trigger>
+            </xf:group>
+            <xf:group
+                class="btn {choose(. = 'true', 'btn-success active', 'btn-default')}">
+                <xf:trigger>
+                    <xf:label>Yes</xf:label>
+                    <xf:hint>DVD, CD-ROM, inserts, etc.</xf:hint>
+                    <xf:action
+                        ev:event="DOMActivate">
+                        <xf:setvalue
+                            ref="."
+                            value="true()"/>
+                    </xf:action>
+                </xf:trigger>
+            </xf:group>
+        </div>
+    </xf:group>
+    
+    <xf:select1
+        appearance="minimal"
+        bind="required-accompany-type"
+        incremental="true">
+        <xf:label
+            class="control-label">Type of accompanying material</xf:label>        
+        <xf:item>
+            <xf:label>DVD</xf:label>
+            <xf:value>dvd</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>CD-ROM</xf:label>
+            <xf:value>cd-rom</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>book</xf:label>
+            <xf:value>book</xf:value>
+        </xf:item>
+        <xf:item>
+            <xf:label>insert</xf:label>
+            <xf:value>insert</xf:value>
+        </xf:item>              
+        <xf:item>
+            <xf:label>other</xf:label>
+            <xf:value>other</xf:value>
+        </xf:item>
+    </xf:select1>
+    <xf:group>
+        <xf:input
+            bind="required-accompany-other"
+            class="small-input">
+            <xf:label
+                class="control-label conditional-label">Please specify</xf:label>
+        </xf:input>
+    </xf:group>
 
 </xf:group>

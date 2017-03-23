@@ -28,6 +28,16 @@
         relevant="../@level = 'other'"
         required="../@level = 'other'"/>
     <xf:bind
+        id="required-accompany-type"
+        ref="data[@type = 'accompany']/@format"
+        relevant=".. = true()"
+        required=".. = true()"/>
+    <xf:bind
+        id="required-accompany-other"
+        ref="data[@type = 'accompany']/@other"
+        relevant="../@format = 'other'"
+        required="../@format = 'other'"/>
+    <xf:bind
         id="other-extent"
         ref="data[@type = 'extent']/@other"
         relevant="../@unit = 'other'"
@@ -87,6 +97,42 @@
         ref="data[@type = 'topic']/geo/@other"
         relevant="../@code = 'other--'"
         required="../@code = 'other--'"/>
+
+    <xf:bind
+        id="required-content"
+        ref="data[@type = 'contentType']"
+        relevant="../data[@type = 'accompany'] = true()"
+        required="../data[@type = 'accompany'] = true()"/>
+    
+    <xf:bind
+        id="required-content-other"
+        ref="data[@type = 'contentType']/@other"
+        relevant="../@part = 'other'"
+        required="../@part = 'other'"/>
+    
+    <xf:bind
+        id="required-carrier"
+        ref="data[@type = 'carrierType']"
+        relevant="../data[@type = 'accompany'] = true()"
+        required="../data[@type = 'accompany'] = true()"/>
+    
+    <xf:bind
+        id="required-carrier-other"
+        ref="data[@type = 'carrierType']/@other"
+        relevant="../@part = 'other'"
+        required="../@part = 'other'"/>
+    
+    <xf:bind
+        id="required-media"
+        ref="data[@type = 'mediaType']"
+        relevant="../data[@type = 'accompany'] = true()"
+        required="../data[@type = 'accompany'] = true()"/>
+    
+    <xf:bind
+        id="required-media-other"
+        ref="data[@type = 'mediaType']/@other"
+        relevant="../@part = 'other'"
+        required="../@part = 'other'"/>
 
 
     <xf:bind
