@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xf:group
+    ref="instance('chars')/*"
+    xmlns="http://www.w3.org/1999/xhtml"
+    xmlns:ev="http://www.w3.org/2001/xml-events"
+    xmlns:xf="http://www.w3.org/2002/xforms">
+    <div
+        class="btn-group data-group"
+        role="group">
+        <xf:trigger
+            class="btn btn-default add"
+            ref="Aacute">
+            <xf:label>Á</xf:label>
+            <xf:setcaret
+                control="title-b-input"
+                ev:event="DOMActivate"
+                value="."/>
+        </xf:trigger>
+        <xf:trigger
+            class="btn btn-default add"
+            ref="aacute">
+            <xf:label>á</xf:label>
+            <xf:setcaret
+                control="title-b-input"
+                ev:event="DOMActivate"
+                value="."/>
+        </xf:trigger>
+        <xf:trigger
+            class="btn btn-default add"
+            ref="Eacute">
+            <xf:label>É</xf:label>
+            <xf:setcaret
+                control="title-b-input"
+                ev:event="DOMActivate"
+                value="."/>
+        </xf:trigger>
+        <xf:trigger
+            class="btn btn-default add"
+            ref="eacute">
+            <xf:label>é</xf:label>
+            <xf:setcaret
+                control="title-b-input"
+                ev:event="DOMActivate"
+                value="."/>
+        </xf:trigger>
+        <xf:trigger
+            class="btn btn-default add"
+            ref="ecirc">
+            <xf:label>ê</xf:label>
+            <xf:setcaret
+                control="title-b-input"
+                ev:event="DOMActivate"
+                value="."/>
+        </xf:trigger>
+        <xf:trigger
+            class="btn btn-default add"
+            ref="Iacute">
+            <xf:label>Í</xf:label>
+            <xf:setcaret
+                control="title-b-input"
+                ev:event="DOMActivate"
+                value="."/>
+        </xf:trigger>
+        <xf:trigger
+            class="btn btn-default add"
+            ref="iacute">
+            <xf:label>í</xf:label>
+            <xf:setcaret
+                control="title-b-input"
+                ev:event="DOMActivate"
+                value="."/>
+        </xf:trigger>
+        <xf:trigger
+            class="btn btn-default add"
+            ref="Oacute">
+            <xf:label>Ó</xf:label>
+            <xf:setcaret
+                control="title-b-input"
+                ev:event="DOMActivate"
+                value="."/>
+        </xf:trigger>
+        <xf:trigger
+            class="btn btn-default add"
+            ref="oacute">
+            <xf:label>ó</xf:label>
+            <xf:setcaret
+                control="title-b-input"
+                ev:event="DOMActivate"
+                value="."/>
+        </xf:trigger>
+        <xf:trigger
+            class="btn btn-default add"
+            ref="ocirc">
+            <xf:label>ô</xf:label>
+            <xf:setcaret
+                control="title-b-input"
+                ev:event="DOMActivate"
+                value="."/>
+        </xf:trigger>
+        <xf:trigger
+            class="btn btn-default add"
+            ref="otilde">
+            <xf:label>õ</xf:label>
+            <xf:setcaret
+                control="title-b-input"
+                ev:event="DOMActivate"
+                value="."/>
+        </xf:trigger>
+        <xf:trigger
+            class="btn btn-default add"
+            ref="Uacute">
+            <xf:label>Ú</xf:label>
+            <xf:setcaret
+                control="title-b-input"
+                ev:event="DOMActivate"
+                value="."/>
+        </xf:trigger>
+        <xf:trigger
+            class="btn btn-default add"
+            ref="uacute">
+            <xf:label>ú</xf:label>
+            <xf:setcaret
+                control="title-b-input"
+                ev:event="DOMActivate"
+                value="."/>
+        </xf:trigger>
+        <xf:trigger
+            class="btn btn-default add"
+            ref="uuml">
+            <xf:label>ü</xf:label>
+            <xf:setcaret
+                control="title-b-input"
+                ev:event="DOMActivate"
+                value="."/>
+        </xf:trigger>
+        <xf:trigger
+            class="btn btn-default add"
+            ref="ntilde">
+            <xf:label>ñ</xf:label>
+            <xf:setcaret
+                control="title-b-input"
+                ev:event="DOMActivate"
+                value="."/>
+        </xf:trigger>
+    </div>
+</xf:group>

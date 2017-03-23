@@ -1,4 +1,4 @@
-<?xml-stylesheet href="/basex/static/cwb/xphoneforms/build/xsl/xsltforms.xsl" type="text/xsl"?>
+<?xml-stylesheet href="/static/cwb/cwb/xphoneforms/build/xsl/xsltforms.xsl" type="text/xsl"?>
 <?xsltforms-options debug="yes"?>
 <?css-conversion no?>
 <?xml-model href="http://www.oxygenxml.com/1999/xhtml/xhtml-xforms.nvdl" schematypens="http://purl.oclc.org/dsdl/nvdl/ns/structure/1.0"?>
@@ -78,6 +78,12 @@
                 id="state">
                 <data
                     xmlns="">
+                    <active
+                        control="title-a-input"></active>
+                    <active
+                        control="title-b-input"></active>
+                    <active
+                        control="title-c-input"></active>
                     <bodyColor></bodyColor>
                     <fontColor></fontColor>
                 </data>
@@ -96,10 +102,10 @@
                 method="get"
                 ref="instance('desc')/*[index('repeat-data')][@type = 'topic']/category/*/@name"
                 replace="instance"
-                targetref="data[index('repeat-data')][@type = 'topic']/subjects/choices"
+                targetref="data[index('repeat-data')][@type = 'topic']/subjects"
                 validate="false">
                 <xf:resource
-                    value="concat('/search/', instance('desc')/*[index('repeat-data')][@type = 'topic']/category/*/@name)"/>
+                    value="concat('/basex/search/', instance('desc')/*[index('repeat-data')][@type = 'topic']/category/*/@name)"/>
                 <xf:action
                     ev:event="xforms-submit-error">
                     <xf:message>
@@ -118,7 +124,9 @@
                 targetref="instance('state')/save">
                 <xf:action
                     ev:event="xforms-submit-done">
-                    <xf:setvalue ref="instance('state')/status" value="''"/>
+                    <xf:setvalue
+                        ref="instance('state')/status"
+                        value="''"/>
                 </xf:action>
                 <xf:action
                     ev:event="xforms-submit-error">
@@ -183,6 +191,29 @@
                 <xf:send
                     submission="get-subject"/>
             </xf:action>
+
+            <xf:action
+                ev:event="DOMFocusIn"
+                ev:observer="title-a-input">
+                <xf:setvalue
+                    ref="instance('state')/active[@control = 'title-a-input']"
+                    value="true()"/>
+            </xf:action>
+            <xf:action
+                ev:event="DOMFocusIn"
+                ev:observer="title-b-input[@control = 'title-b-input']">
+                <xf:setvalue
+                    ref="instance('state')/active"
+                    value="true()"/>
+            </xf:action>
+            <xf:action
+                ev:event="DOMFocusIn"
+                ev:observer="title-c-input[@control = 'title-c-input']">
+                <xf:setvalue
+                    ref="instance('state')/active"
+                    value="true()"/>
+            </xf:action>
+
 
             <!-- <xf:load
                 ev:event="DOMFocusIn"
@@ -307,7 +338,7 @@
                                             <xi:include
                                                 href="contrib.xml"/>
                                             <xi:include
-                                                href="geo.xml"/>
+                                                href="geo.xml"/>                                            
                                             <xi:include
                                                 href="title.xml"/>
                                             <xi:include
@@ -327,13 +358,13 @@
                                                             ev:event="DOMActivate">
                                                             <xf:insert
                                                                 at="index('repeat-data')"
-                                                                origin="instance('proto')/data[@type = context()/@type]"
+                                                                origin="instance('proto')/data[@type = current()/@type]"
                                                                 ref="."/>
                                                         </xf:action>
                                                     </xf:trigger>
                                                     <xf:trigger
                                                         class="btn btn-danger remove"
-                                                        ref=".[count(preceding-sibling::data[@type = context()/@type]) &gt; 0]">
+                                                        ref=".[count(preceding-sibling::data[@type = current()/@type]) &gt; 0]">
                                                         <xf:label>-</xf:label>
                                                         <xf:delete
                                                             ev:event="DOMActivate"

@@ -3,13 +3,7 @@
     class="table table-condensed"
     xmlns="http://www.w3.org/1999/xhtml"
     xmlns:ev="http://www.w3.org/2001/xml-events"
-    xmlns:xf="http://www.w3.org/2002/xforms">
-    <thead>
-        <tr>
-            <th/>
-            <th/>
-        </tr>
-    </thead>
+    xmlns:xf="http://www.w3.org/2002/xforms">    
     <tbody>
         <xf:repeat
             bind="mixed-integer-extent"

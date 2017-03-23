@@ -20,11 +20,7 @@
                     ref="@name"/>
                 <xf:copy
                     ref="."/>
-            </xf:itemset>
-           <!-- <xf:action
-                ev:event="xforms-value-changed">
-               
-            </xf:action>-->
+            </xf:itemset>          
         </xf:select1>
     </xf:group>
     <xf:group>

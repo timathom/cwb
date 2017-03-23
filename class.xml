@@ -5,18 +5,30 @@
     xmlns:xf="http://www.w3.org/2002/xforms">
     <xf:group>
         <xf:input
-            id="lccn-input"
-            ref=".[@type = 'class']/a">
+            id="class-input"
+            incremental="true"
+            ref=".[@type = 'call']/a">
             <xf:label
-                class="col-md-2">Class number</xf:label>
+                class="col-md-2">Class</xf:label>
         </xf:input>
     </xf:group>
     <xf:group>
         <xf:input
-            id="lccn-cutter-input"
-            ref=".[@type = 'class']/b">
+            id="cutter-input"
+            incremental="true"
+            ref=".[@type = 'call']/b">
             <xf:label
-                class="col-md-2">Cutter number</xf:label>
+                class="col-md-2">Cutter</xf:label>
+        </xf:input>
+    </xf:group>
+    <xf:group>
+        <xf:input
+            id="call-date-input"
+            incremental="true"
+            ref=".[@type = 'call']/c">
+            <xf:label
+                class="col-md-2">Date</xf:label>
+            <xf:hint>If a conference publication, date should be the date of the conference</xf:hint>
         </xf:input>
     </xf:group>
 </xf:group>

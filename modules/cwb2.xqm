@@ -10,9 +10,16 @@ declare
 function cwb2:search-by-category(
     $category as xs:string
 ) {
-    <choices>{
-        db:open("topics")/*/*[lower-case(name/text()) eq lower-case($category)]/subject
-    }</choices>
+    let $subjects := db:open("topics")/*/*[lower-case(name/text()) eq lower-case($category)]/subject
+    return
+        <subjects>
+            <choices>{
+                $subjects
+            }</choices>
+            <subject>{
+                $subjects[self::subject][1]
+            }</subject>
+        </subjects>
 };
 
 

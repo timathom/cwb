@@ -5,29 +5,35 @@
     ref=".[@type = 'title']"
     xmlns="http://www.w3.org/1999/xhtml"
     xmlns:ev="http://www.w3.org/2001/xml-events"
-    xmlns:xf="http://www.w3.org/2002/xforms">
+    xmlns:xf="http://www.w3.org/2002/xforms"
+    xmlns:xi="http://www.w3.org/2001/XInclude">
     <xf:label
-        class="group-label">Title information</xf:label>
-    <xf:group
-        id="title-input-subform"/>
+        class="group-label">Title information</xf:label>    
     <xf:input
         class="smaller-input"
+        incremental="true"
         ref="a/@article">
-        <xf:label>Initial article?</xf:label>
-        <xf:hint>If the title starts with an article ("la," "el," "los," "las," etc.), type it here, apart from the rest of the title</xf:hint>
+        <xf:label>Initial article</xf:label>
+        <xf:hint>If the title starts with an article (la, el, las, los, a, o, as, os, etc.), type it here, separate from the rest of the title</xf:hint>
     </xf:input>
+    <xi:include
+        href="characters/characters-title-a.xml"/>
     <xf:textarea
         id="title-a-input"
         incremental="true"
         ref="a">
         <xf:label>Title</xf:label>
     </xf:textarea>
+    <xi:include
+        href="characters/characters-title-b.xml"/>
     <xf:textarea
         id="title-b-input"
         incremental="true"
         ref="b">
         <xf:label>Subtitle</xf:label>
     </xf:textarea>
+    <xi:include
+        href="characters/characters-title-c.xml"/>
     <xf:textarea
         id="title-c-input"
         incremental="true"

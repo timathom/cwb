@@ -91,10 +91,11 @@
             uri="">Select a geographic subject</geo>
     </data>
     <data
-        type="class"
+        type="call"
         uri="">
         <a/>
         <b/>
+        <c/>
     </data>
 
 

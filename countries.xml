@@ -10,8 +10,8 @@
     <country code="cu" geo="nwcu---">https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Flag_of_Cuba.svg/50px-Flag_of_Cuba.svg.png</country>
     <country code="dr" geo="nwdr---">https://upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Flag_of_the_Dominican_Republic.svg/50px-Flag_of_the_Dominican_Republic.svg.png</country>
     <country code="ec" geo="s-ec---">https://upload.wikimedia.org/wikipedia/commons/thumb/e/e8/Flag_of_Ecuador.svg/50px-Flag_of_Ecuador.svg.png</country>
-    <country code="es" geo="nwes---">https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/50px-Flag_of_El_Salvador.svg.png</country>
-    <country code="gt" geo="nwgt---">https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/50px-Flag_of_Guatemala.svg.png</country>
+    <country code="es" geo="nces---">https://upload.wikimedia.org/wikipedia/commons/thumb/3/34/Flag_of_El_Salvador.svg/50px-Flag_of_El_Salvador.svg.png</country>
+    <country code="gt" geo="ncgt---">https://upload.wikimedia.org/wikipedia/commons/thumb/e/ec/Flag_of_Guatemala.svg/50px-Flag_of_Guatemala.svg.png</country>
     <country code="ht" geo="nwht---">https://upload.wikimedia.org/wikipedia/commons/thumb/5/56/Flag_of_Haiti.svg/50px-Flag_of_Haiti.svg.png</country>
     <country code="ho" geo="ncho---">https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/Flag_of_Honduras.svg/50px-Flag_of_Honduras.svg.png</country>
     <country code="mx" geo="n-mx---">https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Flag_of_Mexico.svg/50px-Flag_of_Mexico.svg.png</country>

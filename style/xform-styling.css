@@ -393,7 +393,14 @@ display: none;
 .wide input{
     width: 80% !important;
 }
-.xforms-group-content table{
-    background-color: inherit !important;
+.table .table {
+    background-color: inherit !important;    
+}
+.table .table tbody tr td{
+    border: none !important;    
+}
+
+.xforms-group .xforms-group{
+    margin-top:1%;
     
 }
