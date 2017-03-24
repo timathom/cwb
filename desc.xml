@@ -30,6 +30,8 @@
                 <first/>
                 <last/>
             </pers>
+            <other
+                uri=""/>
         </a>
         <rel
             uri=""/>
@@ -77,7 +79,8 @@
                 <start
                     xsi:type=""/>
             </typedDate>
-            <val/>
+            <val
+                xsi:type="xs:gYear"/>
         </data>
         <type/>
     </data>

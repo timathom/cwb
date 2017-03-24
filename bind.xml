@@ -4,13 +4,35 @@
     xmlns:xf="http://www.w3.org/2002/xforms"
     xmlns:xs="http://www.w3.org/2001/XMLSchema"
     xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+
     <xf:bind
-        ref="instance('desc')/*/*[@type = 'subject']/subject"
-        relevant="../category[normalize-space(.)]"/>
+        ref="data[@type = 'title']/a"
+        required="true()"/>
     <xf:bind
-        id="controlled-boolean"
-        ref="instance('desc')/*/*[@controlled = 'true']"
-        type="xs:boolean"/>
+        ref="data[@type = 'creator']/a/corp"
+        relevant="../../type = 'govt' or ../../type = 'org'"/>
+    <xf:bind
+        ref="data[@type = 'contrib']/a/corp"
+        relevant="../../type = 'govt' or ../../type = 'org'"/>
+    <xf:bind
+        ref="data[@type = 'creator']/a/pers"
+        relevant="../../type = 'pers'"/>
+    <xf:bind
+        ref="data[@type = 'contrib']/a/pers"
+        relevant="../../type = 'pers'"/>
+    <xf:bind
+        ref="data[@type = 'other']/a/other"
+        relevant="../../type = 'other'"/>
+    <xf:bind
+        ref="data[@type = 'provision']/a"
+        required="true()"/>
+    <xf:bind
+        ref="data[@type = 'provision']/b"
+        required="true()"/>
+    <xf:bind
+        ref="data[@type = 'provision']/c"
+        required="true()"/>
+
 
     <xf:bind
         id="boolean-color"
@@ -103,50 +125,37 @@
         ref="data[@type = 'contentType']"
         relevant="../data[@type = 'accompany'] = true()"
         required="../data[@type = 'accompany'] = true()"/>
-    
+
     <xf:bind
         id="required-content-other"
         ref="data[@type = 'contentType']/@other"
         relevant="../@part = 'other'"
         required="../@part = 'other'"/>
-    
+
     <xf:bind
         id="required-carrier"
         ref="data[@type = 'carrierType']"
         relevant="../data[@type = 'accompany'] = true()"
         required="../data[@type = 'accompany'] = true()"/>
-    
+
     <xf:bind
         id="required-carrier-other"
         ref="data[@type = 'carrierType']/@other"
         relevant="../@part = 'other'"
         required="../@part = 'other'"/>
-    
+
     <xf:bind
         id="required-media"
         ref="data[@type = 'mediaType']"
         relevant="../data[@type = 'accompany'] = true()"
         required="../data[@type = 'accompany'] = true()"/>
-    
+
     <xf:bind
         id="required-media-other"
         ref="data[@type = 'mediaType']/@other"
         relevant="../@part = 'other'"
         required="../@part = 'other'"/>
 
-
-    <xf:bind
-        ref="data[@type = 'creator']/a/pers"
-        relevant="../../type = 'pers'"/>
-    <xf:bind
-        ref="data[@type = 'creator']/a/corp"
-        relevant="../../type = 'org' or ../../type = 'govt'"/>
-    <xf:bind
-        ref="data[@type = 'contrib']/a/pers"
-        relevant="../../type = 'pers'"/>
-    <xf:bind
-        ref="data[@type = 'contrib']/a/corp"
-        relevant="../../type = 'org' or ../../type = 'govt'"/>
 
 
 </xf:bind>

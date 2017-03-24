@@ -1,0 +1,494 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<topics>
+  <category>
+    <name>Agrarian and rural issues</name>
+    <subject name="Agricultural development projects" uri="http://id.loc.gov/authorities/subjects/sh85002306"/>
+    <subject name="Agricultural exhibitions" uri="http://id.loc.gov/authorities/subjects/sh85002317"/>
+    <subject name="Agricultural industries" uri="http://id.loc.gov/authorities/subjects/sh85002331"/>
+    <subject name="Agricultural laws and legislation" uri="http://id.loc.gov/authorities/subjects/sh85002349"/>
+    <subject name="Agricultural technology" uri="http://id.loc.gov/authorities/subjects/sh2009005290"/>
+    <subject name="Agriculture" uri="http://id.loc.gov/authorities/subjects/sh85002415"/>
+    <subject name="Agriculture and politics" uri="http://id.loc.gov/authorities/subjects/sh85002483"/>
+    <subject name="Agriculture and state" uri="http://id.loc.gov/authorities/subjects/sh85002484"/>
+    <subject name="Agriculture--Economic aspects" uri="http://id.loc.gov/authorities/subjects/sh85002427"/>
+    <subject name="Agriculture--Handbooks, manuals, etc." uri="http://id.loc.gov/authorities/subjects/sh85002437"/>
+    <subject name="Agriculture--International cooperation" uri="http://id.loc.gov/authorities/subjects/sh85002440"/>
+    <subject name="Cattle trade" uri="http://id.loc.gov/authorities/subjects/sh85021415"/>
+    <subject name="Food industry" uri="http://id.loc.gov/authorities/subjects/sh85050282"/>
+    <subject name="Food supply" uri="http://id.loc.gov/authorities/subjects/sh85050339"/>
+    <subject name="Genetically modified foods" uri="http://id.loc.gov/authorities/subjects/sh00006274"/>
+    <subject name="Land reform" uri="http://id.loc.gov/authorities/subjects/sh85074300"/>
+    <subject name="Organic farming" uri="http://id.loc.gov/authorities/subjects/sh85095504"/>
+    <subject name="Rural conditions" uri="http://id.loc.gov/authorities/subjects/sh85115895"/>
+    <subject name="Rural development projects" uri="http://id.loc.gov/authorities/subjects/sh85115909"/>
+    <subject name="Sustainable agriculture" uri="http://id.loc.gov/authorities/subjects/sh87004216"/>
+    <subject name="Traditional farming" uri="http://id.loc.gov/authorities/subjects/sh85002480"/>
+    <subject name="Transgenic plants" uri="http://id.loc.gov/authorities/subjects/sh90003137"/>
+  </category>
+  <category>
+    <name>Arts and culture</name>
+    <subject name="Architecture" uri="http://id.loc.gov/authorities/subjects/sh85006611"/>
+    <subject name="Art fairs" uri="http://id.loc.gov/authorities/subjects/sh2007000206"/>
+    <subject name="Artists" uri="http://id.loc.gov/authorities/subjects/sh85008276"/>
+    <subject name="Arts" uri="http://id.loc.gov/authorities/subjects/sh85008324"/>
+    <subject name="Arts--Political aspects" uri="http://id.loc.gov/authorities/subjects/sh2009113916"/>
+    <subject name="Art--Study and teaching" uri="http://id.loc.gov/authorities/subjects/sh85007505"/>
+    <subject name="Books and reading" uri="http://id.loc.gov/authorities/subjects/sh85015758"/>
+    <subject name="Celebrities" uri="http://id.loc.gov/authorities/subjects/sh85021618"/>
+    <subject name="Culture" uri="http://id.loc.gov/authorities/subjects/sh85034755"/>
+    <subject name="Documentary films" uri="http://id.loc.gov/authorities/subjects/sh85088115"/>
+    <subject name="Ethnic art" uri="http://id.loc.gov/authorities/subjects/sh85045163"/>
+    <subject name="Festivals" uri="http://id.loc.gov/authorities/subjects/sh85047932"/>
+    <subject name="Folk art" uri="http://id.loc.gov/authorities/subjects/sh85049650"/>
+    <subject name="Gastronomy" uri="http://id.loc.gov/authorities/subjects/sh85053492"/>
+    <subject name="Indigenous art" uri="http://id.loc.gov/authorities/subjects/sh2006008419"/>
+    <subject name="Intellectuals" uri="http://id.loc.gov/authorities/subjects/sh85067169"/>
+    <subject name="Language and languages" uri="http://id.loc.gov/authorities/subjects/sh85074518"/>
+    <subject name="Libraries" uri="http://id.loc.gov/authorities/subjects/sh85076502"/>
+    <subject name="Literature" uri="http://id.loc.gov/authorities/subjects/sh85077507"/>
+    <subject name="Mass media" uri="http://id.loc.gov/authorities/subjects/sh85081863"/>
+    <subject name="Motion pictures" uri="http://id.loc.gov/authorities/subjects/sh85088084"/>
+    <subject name="Museum exhibits" uri="http://id.loc.gov/authorities/subjects/sh96009328"/>
+    <subject name="Museums" uri="http://id.loc.gov/authorities/subjects/sh85088723"/>
+    <subject name="Music" uri="http://id.loc.gov/authorities/subjects/sh85088762"/>
+    <subject name="Performing arts" uri="http://id.loc.gov/authorities/subjects/sh85099818"/>
+    <subject name="Politics and culture" uri="http://id.loc.gov/authorities/subjects/sh85104468"/>
+    <subject name="Popular culture" uri="http://id.loc.gov/authorities/subjects/sh85104904"/>
+    <subject name="Pre-Columbian art" uri="http://id.loc.gov/authorities/subjects/sh85065027"/>
+    <subject name="Recreation" uri="http://id.loc.gov/authorities/subjects/sh85111945"/>
+    <subject name="Sports" uri="http://id.loc.gov/authorities/subjects/sh85126887"/>
+  </category>
+  <category>
+    <name>Children and youth</name>
+    <subject name="Abandoned children" uri="http://id.loc.gov/authorities/subjects/sh85000048"/>
+    <subject name="Adoption" uri="http://id.loc.gov/authorities/subjects/sh85000978"/>
+    <subject name="Child abuse" uri="http://id.loc.gov/authorities/subjects/sh85023348"/>
+    <subject name="Child care" uri="http://id.loc.gov/authorities/subjects/sh85023354"/>
+    <subject name="Child labor" uri="http://id.loc.gov/authorities/subjects/sh85023444"/>
+    <subject name="Child nutrition" uri="http://id.loc.gov/authorities/subjects/sh85023463"/>
+    <subject name="Child sexual abuse" uri="http://id.loc.gov/authorities/subjects/sh85023376"/>
+    <subject name="Children" uri="http://id.loc.gov/authorities/subjects/sh85023418"/>
+    <subject name="Children--Crimes against" uri="http://id.loc.gov/authorities/subjects/sh95007375"/>
+    <subject name="Children--Government policy" uri="http://id.loc.gov/authorities/subjects/sh85023396"/>
+    <subject name="Children--Health and hygiene" uri="http://id.loc.gov/authorities/subjects/sh85023425"/>
+    <subject name="Children--Legal status, laws, etc." uri="http://id.loc.gov/authorities/subjects/sh85023456"/>
+    <subject name="Children's rights" uri="http://id.loc.gov/authorities/subjects/sh85023773"/>
+    <subject name="Gangs" uri="http://id.loc.gov/authorities/subjects/sh85053026"/>
+    <subject name="Juvenile delinquency" uri="http://id.loc.gov/authorities/subjects/sh85071166"/>
+    <subject name="Poor children" uri="http://id.loc.gov/authorities/subjects/sh85104852"/>
+    <subject name="Sex instruction" uri="http://id.loc.gov/authorities/subjects/sh85120630"/>
+    <subject name="Teenagers" uri="http://id.loc.gov/authorities/subjects/sh87006824"/>
+    <subject name="Youth" uri="http://id.loc.gov/authorities/subjects/sh85149310"/>
+    <subject name="Youth and violence" uri="http://id.loc.gov/authorities/subjects/sh99000309"/>
+    <subject name="Youth employment" uri="http://id.loc.gov/authorities/subjects/sh85149324"/>
+    <subject name="Youth--Alcohol use" uri="http://id.loc.gov/authorities/subjects/sh85149311"/>
+    <subject name="Youth--Attitudes" uri="http://id.loc.gov/authorities/subjects/sh2008114052"/>
+    <subject name="Youth--Drug use" uri="http://id.loc.gov/authorities/subjects/sh85149320"/>
+    <subject name="Youth--Health and hygiene" uri="http://id.loc.gov/authorities/subjects/sh85149328"/>
+    <subject name="Youth--Political activity" uri="http://id.loc.gov/authorities/subjects/sh85149336"/>
+    <subject name="Youth--Sexual behavior" uri="http://id.loc.gov/authorities/subjects/sh85149343"/>
+  </category>
+  <category>
+    <name>Economics</name>
+    <subject name="Advertising" uri="http://id.loc.gov/authorities/subjects/sh85001086"/>
+    <subject name="Business" uri="http://id.loc.gov/authorities/subjects/sh85018260"/>
+    <subject name="Commerce" uri="http://id.loc.gov/authorities/subjects/sh85028901"/>
+    <subject name="Consumer protection--Economic aspects" uri="http://id.loc.gov/authorities/subjects/sh85031486"/>
+    <subject name="Cooperative societies" uri="http://id.loc.gov/authorities/subjects/sh85032217"/>
+    <subject name="Debts, External" uri="http://id.loc.gov/authorities/subjects/sh85036140"/>
+    <subject name="Economic conditions" uri="http://id.loc.gov/authorities/subjects/sh85040802"/>
+    <subject name="Economic development" uri="http://id.loc.gov/authorities/subjects/sh85040804"/>
+    <subject name="Economic policy" uri="http://id.loc.gov/authorities/subjects/sh85040837"/>
+    <subject name="Economic policy--Social aspects" uri="http://id.loc.gov/authorities/subjects/sh2010113571"/>
+    <subject name="Economics" uri="http://id.loc.gov/authorities/subjects/sh85040850"/>
+    <subject name="Economics--Political aspects" uri=""/>
+    <subject name="Economics--Research" uri="http://id.loc.gov/authorities/subjects/sh2008102636"/>
+    <subject name="Finance" uri="http://id.loc.gov/authorities/subjects/sh85048256"/>
+    <subject name="Fiscal policy" uri="http://id.loc.gov/authorities/subjects/sh85048601"/>
+    <subject name="Fish trade" uri="http://id.loc.gov/authorities/subjects/sh85048657"/>
+    <subject name="Income distribution" uri="http://id.loc.gov/authorities/subjects/sh85064765"/>
+    <subject name="Industries" uri="http://id.loc.gov/authorities/subjects/sh85065960"/>
+    <subject name="Informal sector (Economics)" uri="http://id.loc.gov/authorities/subjects/sh85066135"/>
+    <subject name="International business enterprises" uri="http://id.loc.gov/authorities/subjects/sh85067372"/>
+    <subject name="Investments, Foreign" uri="http://id.loc.gov/authorities/subjects/sh85067736"/>
+    <subject name="Local government --Economic aspects" uri=""/>
+    <subject name="Mass media--Economic aspects" uri="http://id.loc.gov/authorities/subjects/sh2008107497"/>
+    <subject name="Mines and mineral resources" uri="http://id.loc.gov/authorities/subjects/sh85085614"/>
+    <subject name="Oil industries" uri="http://id.loc.gov/authorities/subjects/sh85094337"/>
+    <subject name="Trade associations" uri="http://id.loc.gov/authorities/subjects/sh95006344"/>
+  </category>
+  <category>
+    <name>Education</name>
+    <subject name="Adult education" uri="http://id.loc.gov/authorities/subjects/sh85001028"/>
+    <subject name="Dropouts" uri="http://id.loc.gov/authorities/subjects/sh85039629"/>
+    <subject name="Education" uri="http://id.loc.gov/authorities/subjects/sh85040989"/>
+    <subject name="Education and state" uri="http://id.loc.gov/authorities/subjects/sh85041091"/>
+    <subject name="Education, Bilingual" uri="http://id.loc.gov/authorities/subjects/sh85041053"/>
+    <subject name="Education, Higher" uri="http://id.loc.gov/authorities/subjects/sh85041065"/>
+    <subject name="Education, Primary" uri="http://id.loc.gov/authorities/subjects/sh85041077"/>
+    <subject name="Education, Rural" uri="http://id.loc.gov/authorities/subjects/sh85041081"/>
+    <subject name="Education, Secondary" uri="http://id.loc.gov/authorities/subjects/sh85041082"/>
+    <subject name="Educational law and legislation" uri="http://id.loc.gov/authorities/subjects/sh85041128"/>
+    <subject name="Educational system" uri=""/>
+    <subject name="Education--Political aspects" uri="http://id.loc.gov/authorities/subjects/sh85104469"/>
+    <subject name="Education--Study and teaching" uri="http://id.loc.gov/authorities/subjects/sh85041021"/>
+    <subject name="Literacy" uri="http://id.loc.gov/authorities/subjects/sh85077482"/>
+    <subject name="Minorities--Education" uri="http://id.loc.gov/authorities/subjects/sh85085794"/>
+    <subject name="Multicultural education" uri="http://id.loc.gov/authorities/subjects/sh85067223"/>
+    <subject name="Poor--Education" uri=""/>
+    <subject name="Popular education" uri="http://id.loc.gov/authorities/subjects/sh91005791"/>
+    <subject name="Schools" uri="http://id.loc.gov/authorities/subjects/sh85118451"/>
+    <subject name="Science education" uri="http://id.loc.gov/authorities/subjects/sh85118587"/>
+    <subject name="Student unions" uri="http://id.loc.gov/authorities/subjects/sh85129292"/>
+    <subject name="Teachers' unions" uri="http://id.loc.gov/authorities/subjects/sh85133046"/>
+    <subject name="Teaching--Aids and devices" uri="http://id.loc.gov/authorities/subjects/sh85133053"/>
+    <subject name="Universities and colleges" uri="http://id.loc.gov/authorities/subjects/sh85141086"/>
+    <subject name="Vocational education" uri="http://id.loc.gov/authorities/subjects/sh85144178"/>
+  </category>
+  <category>
+    <name>Environment and ecology</name>
+    <subject name="Biodiversity" uri="http://id.loc.gov/authorities/subjects/sh87005569"/>
+    <subject name="Climatic changes" uri="http://id.loc.gov/authorities/subjects/sh85027037"/>
+    <subject name="Community development--Environmental aspects" uri=""/>
+    <subject name="Conservation of natural resources" uri="http://id.loc.gov/authorities/subjects/sh85031255"/>
+    <subject name="Ecotourism" uri="http://id.loc.gov/authorities/subjects/sh92003403"/>
+    <subject name="Energy conservation" uri="http://id.loc.gov/authorities/subjects/sh85043124"/>
+    <subject name="Energy policy" uri="http://id.loc.gov/authorities/subjects/sh85043147"/>
+    <subject name="Environment" uri="http://id.loc.gov/authorities/subjects/sh85000800"/>
+    <subject name="Environmental education" uri="http://id.loc.gov/authorities/subjects/sh85044169"/>
+    <subject name="Environmental health" uri="http://id.loc.gov/authorities/subjects/sh85044173"/>
+    <subject name="Environmental law" uri="http://id.loc.gov/authorities/subjects/sh85044184"/>
+    <subject name="Environmental policy" uri="http://id.loc.gov/authorities/subjects/sh85044197"/>
+    <subject name="Environmental protection" uri="http://id.loc.gov/authorities/subjects/sh85044203"/>
+    <subject name="Environmentalism" uri="http://id.loc.gov/authorities/subjects/sh93004752"/>
+    <subject name="Fish trade--environmental aspects" uri=""/>
+    <subject name="Forests and forestry" uri="http://id.loc.gov/authorities/subjects/sh85050707"/>
+    <subject name="Green technology" uri="http://id.loc.gov/authorities/subjects/sh94001791"/>
+    <subject name="Marine resources" uri="http://id.loc.gov/authorities/subjects/sh85081257"/>
+    <subject name="Mineral industries--environmental aspects" uri="http://id.loc.gov/authorities/subjects/sh85085556"/>
+    <subject name="National parks and reserves" uri="http://id.loc.gov/authorities/subjects/sh85090045"/>
+    <subject name="Natural disasters" uri="http://id.loc.gov/authorities/subjects/sh85090214"/>
+    <subject name="Natural gas" uri="http://id.loc.gov/authorities/subjects/sh85053223"/>
+    <subject name="Natural resources" uri="http://id.loc.gov/authorities/subjects/sh85090254"/>
+    <subject name="Nature conservation" uri="http://id.loc.gov/authorities/subjects/sh85090284"/>
+    <subject name="Petroleum industry and trade" uri="http://id.loc.gov/authorities/subjects/sh85100430"/>
+    <subject name="Pollution" uri="http://id.loc.gov/authorities/subjects/sh85104530"/>
+    <subject name="Power resources--Environmental aspects" uri="http://id.loc.gov/authorities/subjects/sh2008109911"/>
+    <subject name="Rain forests" uri="http://id.loc.gov/authorities/subjects/sh85111193"/>
+    <subject name="Recycling (Waste, etc.); Waste disposal" uri=""/>
+    <subject name="Renewable energy resources" uri="http://id.loc.gov/authorities/subjects/sh85112837"/>
+    <subject name="Sustainable development" uri="http://id.loc.gov/authorities/subjects/sh92005743"/>
+    <subject name="Urban policy--Environmental aspects" uri=""/>
+    <subject name="Waste disposal" uri="http://id.loc.gov/authorities/subjects/sh85145407"/>
+    <subject name="Water use" uri="http://id.loc.gov/authorities/subjects/sh85145666"/>
+    <subject name="Wildlife conservation" uri="http://id.loc.gov/authorities/subjects/sh85146731"/>
+  </category>
+  <category>
+    <name>Gender</name>
+    <subject name="Beauty contests" uri="http://id.loc.gov/authorities/subjects/sh85012724"/>
+    <subject name="Family" uri="http://id.loc.gov/authorities/subjects/sh00005743"/>
+    <subject name="Family violence" uri="http://id.loc.gov/authorities/subjects/sh85047071"/>
+    <subject name="Feminism" uri="http://id.loc.gov/authorities/subjects/sh85047741"/>
+    <subject name="Gay couples" uri="http://id.loc.gov/authorities/subjects/sh85061777"/>
+    <subject name="Gay culture" uri="http://id.loc.gov/authorities/subjects/sh2004003369"/>
+    <subject name="Gay rights" uri="http://id.loc.gov/authorities/subjects/sh94009215"/>
+    <subject name="Gays" uri="http://id.loc.gov/authorities/subjects/sh85061795"/>
+    <subject name="Gays--Legal status, laws, etc." uri=""/>
+    <subject name="Gender" uri="http://id.loc.gov/authorities/subjects/sh00002547"/>
+    <subject name="HIV-positive women" uri="http://id.loc.gov/authorities/subjects/sh95003227"/>
+    <subject name="Homosexuality--Government policy" uri=""/>
+    <subject name="Indigenous women" uri="http://id.loc.gov/authorities/subjects/sh00007362"/>
+    <subject name="Lesbian culture" uri="http://id.loc.gov/authorities/subjects/sh2004003370"/>
+    <subject name="Lesbians" uri="http://id.loc.gov/authorities/subjects/sh85076160"/>
+    <subject name="Masculinity" uri="http://id.loc.gov/authorities/subjects/sh85081797"/>
+    <subject name="Men" uri="http://id.loc.gov/authorities/subjects/sh85083510"/>
+    <subject name="Men--Sexual behavior" uri="http://id.loc.gov/authorities/subjects/sh85083520"/>
+    <subject name="Prostitution" uri="http://id.loc.gov/authorities/subjects/sh85107626"/>
+    <subject name="Reproductive health" uri="http://id.loc.gov/authorities/subjects/sh98006709"/>
+    <subject name="Reproductive rights" uri="http://id.loc.gov/authorities/subjects/sh2008005212"/>
+    <subject name="Same-sex marriage" uri="http://id.loc.gov/authorities/subjects/sh92003901"/>
+    <subject name="Sex discrimination" uri="http://id.loc.gov/authorities/subjects/sh85120591"/>
+    <subject name="Sex discrimination against women" uri="http://id.loc.gov/authorities/subjects/sh85120595"/>
+    <subject name="Sexual abuse victims" uri="http://id.loc.gov/authorities/subjects/sh92002829"/>
+    <subject name="Sexual health" uri="http://id.loc.gov/authorities/subjects/sh85063528"/>
+    <subject name="Transgender people" uri="http://id.loc.gov/authorities/subjects/sh2007003708"/>
+    <subject name="Women" uri="http://id.loc.gov/authorities/subjects/sh85147274"/>
+    <subject name="Women household employees" uri="http://id.loc.gov/authorities/subjects/sh85147520"/>
+    <subject name="Women in art" uri="http://id.loc.gov/authorities/subjects/sh85147554"/>
+    <subject name="Women--Crimes against" uri="http://id.loc.gov/authorities/subjects/sh85147284"/>
+    <subject name="Women--Education" uri="http://id.loc.gov/authorities/subjects/sh85147291"/>
+    <subject name="Women--Employment" uri="http://id.loc.gov/authorities/subjects/sh85147294"/>
+    <subject name="Women--Government policy" uri=""/>
+    <subject name="Women--Health and hygiene" uri="http://id.loc.gov/authorities/subjects/sh85147301"/>
+    <subject name="Women--Identity" uri="http://id.loc.gov/authorities/subjects/sh95001570"/>
+    <subject name="Women--Legal status, laws, etc." uri=""/>
+    <subject name="Women--Political activity" uri="http://id.loc.gov/authorities/subjects/sh85147597"/>
+    <subject name="Women--Sexual behavior" uri="http://id.loc.gov/authorities/subjects/sh85147339"/>
+  </category>
+  <category>
+    <name>Health</name>
+    <subject name="Abortion" uri="http://id.loc.gov/authorities/subjects/sh85000196"/>
+    <subject name="AIDS (Disease)" uri="http://id.loc.gov/authorities/subjects/sh85002541"/>
+    <subject name="Alternative medicine" uri="http://id.loc.gov/authorities/subjects/sh85134721"/>
+    <subject name="Birth control" uri="http://id.loc.gov/authorities/subjects/sh85014367"/>
+    <subject name="Contraception" uri="http://id.loc.gov/authorities/subjects/sh85031589"/>
+    <subject name="Discrimination in medical care" uri="http://id.loc.gov/authorities/subjects/sh85038396"/>
+    <subject name="Diseases" uri="http://id.loc.gov/authorities/subjects/sh85038411"/>
+    <subject name="Drugs--Therapeutic use" uri=""/>
+    <subject name="Family planning" uri="http://id.loc.gov/authorities/subjects/sh2009005770"/>
+    <subject name="Health" uri="http://id.loc.gov/authorities/subjects/sh85059518"/>
+    <subject name="Health education" uri="http://id.loc.gov/authorities/subjects/sh85059537"/>
+    <subject name="Health facilities" uri="http://id.loc.gov/authorities/subjects/sh85059543"/>
+    <subject name="Health policy" uri="http://id.loc.gov/authorities/subjects/sh85083002"/>
+    <subject name="Health services accessibility" uri="http://id.loc.gov/authorities/subjects/sh92006496"/>
+    <subject name="Health--Environmental aspects" uri="http://id.loc.gov/authorities/subjects/sh85044173"/>
+    <subject name="HIV infections" uri="http://id.loc.gov/authorities/subjects/sh91004036"/>
+    <subject name="Immunization" uri="http://id.loc.gov/authorities/subjects/sh85064545"/>
+    <subject name="Medical care" uri="http://id.loc.gov/authorities/subjects/sh85082871"/>
+    <subject name="Mental health" uri="http://id.loc.gov/authorities/subjects/sh85083615"/>
+    <subject name="Nutrition" uri="http://id.loc.gov/authorities/subjects/sh85093451"/>
+    <subject name="Older people" uri="http://id.loc.gov/authorities/subjects/sh85002087"/>
+    <subject name="People with disabilities" uri="http://id.loc.gov/authorities/subjects/sh85058663"/>
+    <subject name="Pests" uri="http://id.loc.gov/authorities/subjects/sh85100293"/>
+    <subject name="Physicians" uri="http://id.loc.gov/authorities/subjects/sh85101610"/>
+    <subject name="Public health" uri="http://id.loc.gov/authorities/subjects/sh85108638"/>
+    <subject name="Public health--Citizenship participation" uri=""/>
+    <subject name="Sanitation" uri="http://id.loc.gov/authorities/subjects/sh85117296"/>
+    <subject name="Substance abuse" uri="http://id.loc.gov/authorities/subjects/sh85129539"/>
+    <subject name="Traditional medicine" uri="http://id.loc.gov/authorities/subjects/sh85083164"/>
+    <subject name="Water--Health aspects" uri=""/>
+  </category>
+  <category>
+    <name>History</name>
+    <subject name="Archaeology" uri="http://id.loc.gov/authorities/subjects/sh85006507"/>
+    <subject name="Archives" uri="http://id.loc.gov/authorities/subjects/sh85006913"/>
+    <subject name="Biography" uri="http://id.loc.gov/authorities/subjects/sh85014152"/>
+    <subject name="History" uri="http://id.loc.gov/authorities/subjects/sh85061212"/>
+    <subject name="Local history" uri="http://id.loc.gov/authorities/subjects/sh85077932"/>
+  </category>
+  <category>
+    <name>Human and civil rights</name>
+    <subject name="Civil Rights" uri="http://id.loc.gov/authorities/subjects/sh85026371"/>
+    <subject name="Civil rights--Government policy" uri=""/>
+    <subject name="Collective memory" uri="http://id.loc.gov/authorities/subjects/sh2006002444"/>
+    <subject name="Consumer protection" uri="http://id.loc.gov/authorities/subjects/sh85031486"/>
+    <subject name="Disappeared persons" uri="http://id.loc.gov/authorities/subjects/sh89002409"/>
+    <subject name="Forced migration" uri="http://id.loc.gov/authorities/subjects/sh88005789"/>
+    <subject name="Freedom of expression" uri="http://id.loc.gov/authorities/subjects/sh2003012251"/>
+    <subject name="Freedom of the press" uri="http://id.loc.gov/authorities/subjects/sh85051711"/>
+    <subject name="Guerrillas--Civil rights" uri=""/>
+    <subject name="Human rights" uri="http://id.loc.gov/authorities/subjects/sh85026379"/>
+    <subject name="Human rights advocacy" uri="http://id.loc.gov/authorities/subjects/sh94008953"/>
+    <subject name="Human rights--Government policy" uri=""/>
+    <subject name="Human rights--Law and legislation" uri="http://id.loc.gov/authorities/subjects/sh85026379"/>
+    <subject name="Human trafficking" uri="http://id.loc.gov/authorities/subjects/sh2006002629"/>
+    <subject name="Immigrants--Civil rights" uri=""/>
+    <subject name="Indigenous peoples--Civil rights" uri="http://id.loc.gov/authorities/subjects/sh2001006129"/>
+    <subject name="Massacres" uri="http://id.loc.gov/authorities/subjects/sh85081954"/>
+    <subject name="Minorities--Civil rights" uri="http://id.loc.gov/authorities/subjects/sh98005421"/>
+    <subject name="Missing children" uri="http://id.loc.gov/authorities/subjects/sh85086009"/>
+    <subject name="Older people--Civil rights" uri=""/>
+    <subject name="Paramilitaries" uri="http://id.loc.gov/authorities/subjects/sh85097857"/>
+    <subject name="People with disabilities--Civil rights" uri=""/>
+    <subject name="Police brutality" uri="http://id.loc.gov/authorities/subjects/sh95010616"/>
+    <subject name="Political prisoners" uri="http://id.loc.gov/authorities/subjects/sh85104422"/>
+    <subject name="Political violence" uri="http://id.loc.gov/authorities/subjects/sh95005727"/>
+    <subject name="Prisons" uri="http://id.loc.gov/authorities/subjects/sh85106996"/>
+    <subject name="Refugees--Civil rights" uri=""/>
+    <subject name="Sexual minorities" uri="http://id.loc.gov/authorities/subjects/sh2004003385"/>
+    <subject name="State-sponsored terrorism" uri="http://id.loc.gov/authorities/subjects/sh91004326"/>
+    <subject name="Terrorism" uri="http://id.loc.gov/authorities/subjects/sh85134112"/>
+    <subject name="Torture" uri="http://id.loc.gov/authorities/subjects/sh85136190"/>
+    <subject name="Truth commissions" uri="http://id.loc.gov/authorities/subjects/sh2001002255"/>
+    <subject name="Women's rights" uri="http://id.loc.gov/authorities/subjects/sh85147765"/>
+    <subject name="Youth--Civil rights" uri=""/>
+  </category>
+  <category>
+    <name>Labor</name>
+    <subject name="Agricultural workers" uri="http://id.loc.gov/authorities/subjects/sh85002338"/>
+    <subject name="Employee rights" uri="http://id.loc.gov/authorities/subjects/sh85042873"/>
+    <subject name="Employment" uri="http://id.loc.gov/authorities/subjects/sh99005236"/>
+    <subject name="Forced labor" uri="http://id.loc.gov/authorities/subjects/sh85050453"/>
+    <subject name="Labor" uri="http://id.loc.gov/authorities/subjects/sh90004091"/>
+    <subject name="Labor and globalization" uri="http://id.loc.gov/authorities/subjects/sh2012000571"/>
+    <subject name="Labor economics" uri="http://id.loc.gov/authorities/subjects/sh85073687"/>
+    <subject name="Labor laws and legislation" uri="http://id.loc.gov/authorities/subjects/sh85073691"/>
+    <subject name="Labor market" uri="http://id.loc.gov/authorities/subjects/sh89000875"/>
+    <subject name="Labor unions" uri="http://id.loc.gov/authorities/subjects/sh85136516"/>
+    <subject name="Labor unions--Political activity" uri="http://id.loc.gov/authorities/subjects/sh85136669"/>
+    <subject name="Migrant Labor" uri="http://id.loc.gov/authorities/subjects/sh85085067"/>
+    <subject name="Occupational training" uri="http://id.loc.gov/authorities/subjects/sh85093855"/>
+    <subject name="Pensions" uri="http://id.loc.gov/authorities/subjects/sh85099592"/>
+    <subject name="Retirees" uri="http://id.loc.gov/authorities/subjects/sh88002484"/>
+    <subject name="Unemployed" uri="http://id.loc.gov/authorities/subjects/sh85139639"/>
+    <subject name="Wages" uri="http://id.loc.gov/authorities/subjects/sh85144526"/>
+    <subject name="Work environment" uri="http://id.loc.gov/authorities/subjects/sh85148146"/>
+    <subject name="Working class" uri="http://id.loc.gov/authorities/subjects/sh85073639"/>
+  </category>
+  <category>
+    <name>Minorities, ethnic and racial groups</name>
+    <subject name="Affirmative action" uri=""/>
+    <subject name="Arabs" uri="http://id.loc.gov/authorities/subjects/sh85006349"/>
+    <subject name="Asians" uri="http://id.loc.gov/authorities/subjects/sh85008657"/>
+    <subject name="Blacks" uri="http://id.loc.gov/authorities/subjects/sh85014672"/>
+    <subject name="Discrimination" uri="http://id.loc.gov/authorities/subjects/sh85038376"/>
+    <subject name="Ethnic groups" uri="http://id.loc.gov/authorities/subjects/sh85045172"/>
+    <subject name="Ethnic relations" uri="http://id.loc.gov/authorities/subjects/sh85045182"/>
+    <subject name="Ethnicity--Political aspects" uri="http://id.loc.gov/authorities/subjects/sh2008119896"/>
+    <subject name="Europeans" uri="http://id.loc.gov/authorities/subjects/sh85045859"/>
+    <subject name="Folklore" uri="http://id.loc.gov/authorities/subjects/sh85050104"/>
+    <subject name="Immigrants" uri="http://id.loc.gov/authorities/subjects/sh85064517"/>
+    <subject name="Indigenous peoples" uri="http://id.loc.gov/authorities/subjects/sh85090174"/>
+    <subject name="Indigenous peoples--Legal status, laws, etc." uri=""/>
+    <subject name="Mestizos" uri="http://id.loc.gov/authorities/subjects/sh93008230"/>
+    <subject name="Minorities" uri="http://id.loc.gov/authorities/subjects/sh85085792"/>
+    <subject name="Minorities--Legal status, laws, etc." uri=""/>
+    <subject name="Minorities--Political activity" uri="http://id.loc.gov/authorities/subjects/sh85085807"/>
+    <subject name="Minorities--Politics and government" uri=""/>
+    <subject name="Minorities--Population" uri="http://id.loc.gov/authorities/subjects/sh85085808"/>
+    <subject name="Racism" uri="http://id.loc.gov/authorities/subjects/sh85110266"/>
+  </category>
+  <category>
+    <name>Politics and government</name>
+    <subject name="Administrative regulations" uri="http://id.loc.gov/authorities/subjects/sh85036560"/>
+    <subject name="Armed Forces" uri="http://id.loc.gov/authorities/subjects/sh85007241"/>
+    <subject name="Community organization" uri="http://id.loc.gov/authorities/subjects/sh85029254"/>
+    <subject name="Constitutions" uri="http://id.loc.gov/authorities/subjects/sh85031336"/>
+    <subject name="Courts" uri="http://id.loc.gov/authorities/subjects/sh85033571"/>
+    <subject name="Decentralization in government" uri="http://id.loc.gov/authorities/subjects/sh85036185"/>
+    <subject name="Democracy" uri="http://id.loc.gov/authorities/subjects/sh85036647"/>
+    <subject name="Elections" uri="http://id.loc.gov/authorities/subjects/sh85041557"/>
+    <subject name="Foreign relations" uri="http://id.loc.gov/authorities/subjects/sh85050519"/>
+    <subject name="Government accountability" uri="http://id.loc.gov/authorities/subjects/sh2007008050"/>
+    <subject name="Government policy" uri="http://id.loc.gov/authorities/subjects/sh85056091"/>
+    <subject name="Guerrillas" uri="http://id.loc.gov/authorities/subjects/sh85057696"/>
+    <subject name="International agencies" uri="http://id.loc.gov/authorities/subjects/sh85067357"/>
+    <subject name="International cooperation" uri="http://id.loc.gov/authorities/subjects/sh85067385"/>
+    <subject name="Latin America--Relations--United States; United States--Relations--Latin America" uri=""/>
+    <subject name="Laws" uri=""/>
+    <subject name="Local government" uri="http://id.loc.gov/authorities/subjects/sh85077923"/>
+    <subject name="Mass media--Political aspects" uri="http://id.loc.gov/authorities/subjects/sh85081871"/>
+    <subject name="National security" uri="http://id.loc.gov/authorities/subjects/sh85090122"/>
+    <subject name="Nationalism" uri="http://id.loc.gov/authorities/subjects/sh85090150"/>
+    <subject name="Pan-Americanism" uri="http://id.loc.gov/authorities/subjects/sh85097311"/>
+    <subject name="Paramilitary forces" uri="http://id.loc.gov/authorities/subjects/sh85097857"/>
+    <subject name="Peace agreements" uri=""/>
+    <subject name="Peace movements" uri="http://id.loc.gov/authorities/subjects/sh85098950"/>
+    <subject name="Peace negotiations" uri=""/>
+    <subject name="Policy analysis" uri=""/>
+    <subject name="Political campaigns" uri="http://id.loc.gov/authorities/subjects/sh85041555"/>
+    <subject name="Political corruption" uri="http://id.loc.gov/authorities/subjects/sh85033057"/>
+    <subject name="Political participation" uri="http://id.loc.gov/authorities/subjects/sh85104370"/>
+    <subject name="Political parties" uri="http://id.loc.gov/authorities/subjects/sh85104371"/>
+    <subject name="Politics" uri="http://id.loc.gov/authorities/subjects/sh2002011436"/>
+    <subject name="Presidents" uri="http://id.loc.gov/authorities/subjects/sh85106459"/>
+    <subject name="Privatization" uri="http://id.loc.gov/authorities/subjects/sh85107058"/>
+    <subject name="Protest movements" uri="http://id.loc.gov/authorities/subjects/sh91005953"/>
+    <subject name="Public administration" uri="http://id.loc.gov/authorities/subjects/sh85108611"/>
+    <subject name="Public safety" uri="http://id.loc.gov/authorities/subjects/sh2008002399"/>
+    <subject name="Revolutionaries" uri="http://id.loc.gov/authorities/subjects/sh85113502"/>
+    <subject name="Self-determination, National" uri="http://id.loc.gov/authorities/subjects/sh85119735"/>
+    <subject name="Social movements" uri="http://id.loc.gov/authorities/subjects/sh85123979"/>
+    <subject name="Students--Political activity" uri="http://id.loc.gov/authorities/subjects/sh85129306"/>
+    <subject name="Transportation" uri="http://id.loc.gov/authorities/subjects/sh85137027"/>
+    <subject name="Voting" uri="http://id.loc.gov/authorities/subjects/sh85144418"/>
+    <subject name="War" uri="http://id.loc.gov/authorities/subjects/sh85145114"/>
+  </category>
+  <category>
+    <name>Religion</name>
+    <subject name="Afro-Brazilian cults" uri="http://id.loc.gov/authorities/subjects/sh88007804"/>
+    <subject name="Afro-Caribbean cults" uri="http://id.loc.gov/authorities/subjects/sh96010511"/>
+    <subject name="Atheism" uri="http://id.loc.gov/authorities/subjects/sh85009109"/>
+    <subject name="Bible" uri="http://id.loc.gov/authorities/subjects/sh85013576"/>
+    <subject name="Catholic Church" uri="http://id.loc.gov/authorities/subjects/sh85021043"/>
+    <subject name="Christians" uri="http://id.loc.gov/authorities/subjects/sh85025293"/>
+    <subject name="Church and state" uri="http://id.loc.gov/authorities/subjects/sh85025534"/>
+    <subject name="Church of England" uri=""/>
+    <subject name="Cults" uri="http://id.loc.gov/authorities/subjects/sh85034719"/>
+    <subject name="Ecumenical movement" uri="http://id.loc.gov/authorities/subjects/sh85040933"/>
+    <subject name="Episcopal Church" uri="http://id.loc.gov/authorities/subjects/sh85044442"/>
+    <subject name="Evangelicalism" uri="http://id.loc.gov/authorities/subjects/sh85045933"/>
+    <subject name="Independent churches" uri="http://id.loc.gov/authorities/subjects/sh85064846"/>
+    <subject name="Indians--Religion" uri="http://id.loc.gov/authorities/subjects/sh85065067"/>
+    <subject name="Islam" uri="http://id.loc.gov/authorities/subjects/sh85068390"/>
+    <subject name="Jehovah's Witnesses" uri="http://id.loc.gov/authorities/subjects/sh85069870"/>
+    <subject name="Judaism" uri="http://id.loc.gov/authorities/subjects/sh85070835"/>
+    <subject name="Liberation theology" uri="http://id.loc.gov/authorities/subjects/sh85076447"/>
+    <subject name="Missionaries" uri="http://id.loc.gov/authorities/subjects/sh85086017"/>
+    <subject name="Protestant churches" uri="http://id.loc.gov/authorities/subjects/sh85107712"/>
+    <subject name="Religion" uri="http://id.loc.gov/authorities/subjects/sh85112549"/>
+    <subject name="Religion and politics" uri="http://id.loc.gov/authorities/subjects/sh85112577"/>
+    <subject name="Religious architecture" uri="http://id.loc.gov/authorities/subjects/sh2004000703"/>
+    <subject name="Religious art" uri="http://id.loc.gov/authorities/subjects/sh85112607"/>
+    <subject name="Religious education" uri="http://id.loc.gov/authorities/subjects/sh85112630"/>
+    <subject name="Rites and ceremonies" uri="http://id.loc.gov/authorities/subjects/sh85114211"/>
+    <subject name="Spiritualism" uri="http://id.loc.gov/authorities/subjects/sh85126775"/>
+  </category>
+  <category>
+    <name>Science and technology</name>
+    <subject name="Biotechnology" uri="http://id.loc.gov/authorities/subjects/sh85014263"/>
+    <subject name="Energy Technology" uri=""/>
+    <subject name="Engineering" uri="http://id.loc.gov/authorities/subjects/sh85043176"/>
+    <subject name="Geology" uri="http://id.loc.gov/authorities/subjects/sh85054037"/>
+    <subject name="Information technology" uri="http://id.loc.gov/authorities/subjects/sh87002293"/>
+    <subject name="Medical technology" uri="http://id.loc.gov/authorities/subjects/sh85083046"/>
+    <subject name="Military Technology" uri=""/>
+    <subject name="Science and technology" uri=""/>
+  </category>
+  <category>
+    <name>Socioeconomic conditions and development</name>
+    <subject name="Community development" uri="http://id.loc.gov/authorities/subjects/sh85029215"/>
+    <subject name="Crime prevention" uri="http://id.loc.gov/authorities/subjects/sh85034011"/>
+    <subject name="Demography" uri="http://id.loc.gov/authorities/subjects/sh85036659"/>
+    <subject name="Drug traffic" uri="http://id.loc.gov/authorities/subjects/sh88000332"/>
+    <subject name="Economic assistance" uri="http://id.loc.gov/authorities/subjects/sh85040767"/>
+    <subject name="Economic development projects" uri="http://id.loc.gov/authorities/subjects/sh85040810"/>
+    <subject name="Economic policy--citizen participation" uri=""/>
+    <subject name="Globalization" uri="http://id.loc.gov/authorities/subjects/sh99010179"/>
+    <subject name="Housing" uri="http://id.loc.gov/authorities/subjects/sh85062603"/>
+    <subject name="Hydrocarbons" uri="http://id.loc.gov/authorities/subjects/sh85063372"/>
+    <subject name="Infrastructure (Economics)" uri="http://id.loc.gov/authorities/subjects/sh85066333"/>
+    <subject name="Poverty" uri="http://id.loc.gov/authorities/subjects/sh85105939"/>
+    <subject name="Power resources" uri="http://id.loc.gov/authorities/subjects/sh85105992"/>
+    <subject name="Public safety--Social aspects" uri=""/>
+    <subject name="Retirement" uri="http://id.loc.gov/authorities/subjects/sh85113347"/>
+    <subject name="Small business" uri="http://id.loc.gov/authorities/subjects/sh85123568"/>
+    <subject name="Social conditions" uri="http://id.loc.gov/authorities/subjects/sh2001008850"/>
+    <subject name="Social justice" uri="http://id.loc.gov/authorities/subjects/sh85123969"/>
+    <subject name="Social policy" uri="http://id.loc.gov/authorities/subjects/sh85123985"/>
+    <subject name="Social policy--citizen participation" uri=""/>
+    <subject name="Technical assistance" uri="http://id.loc.gov/authorities/subjects/sh85133088"/>
+    <subject name="Violence" uri="http://id.loc.gov/authorities/subjects/sh85143514"/>
+  </category>
+  <category>
+    <name>Tourism</name>
+    <subject name="Advertising--Tourism" uri="http://id.loc.gov/authorities/subjects/sh88000359"/>
+    <subject name="Archaeological sites" uri="http://id.loc.gov/authorities/subjects/sh2004001339"/>
+    <subject name="Guidebooks" uri="http://id.loc.gov/authorities/subjects/sh85057716"/>
+    <subject name="Hotels and motels" uri=""/>
+    <subject name="Monuments" uri="http://id.loc.gov/authorities/subjects/sh85087089"/>
+    <subject name="Tourism" uri="http://id.loc.gov/authorities/subjects/sh85136255"/>
+    <subject name="Tourism and art" uri="http://id.loc.gov/authorities/subjects/sh85136266"/>
+    <subject name="Tourism and gastronomy" uri="http://id.loc.gov/authorities/subjects/sh2003000021"/>
+    <subject name="Tourism--Economic aspects" uri="http://id.loc.gov/authorities/subjects/sh85136255"/>
+    <subject name="Tourism--Social aspects" uri="http://id.loc.gov/authorities/subjects/sh2008112808"/>
+    <subject name="Tourist camps, hostels, etc." uri=""/>
+    <subject name="Tourist maps" uri="http://id.loc.gov/authorities/subjects/sh85080873"/>
+  </category>
+  <category>
+    <name>Urban issues</name>
+    <subject name="Cities" uri=""/>
+    <subject name="City planning" uri="http://id.loc.gov/authorities/subjects/sh85026282"/>
+    <subject name="Crime" uri="http://id.loc.gov/authorities/subjects/sh85033993"/>
+    <subject name="Housing policy" uri="http://id.loc.gov/authorities/subjects/sh85062639"/>
+    <subject name="Land use, urban" uri="http://id.loc.gov/authorities/subjects/sh85074353"/>
+    <subject name="Public works" uri="http://id.loc.gov/authorities/subjects/sh85108858"/>
+    <subject name="Real estate business" uri="http://id.loc.gov/authorities/subjects/sh85111712"/>
+    <subject name="Squatter settlements" uri="http://id.loc.gov/authorities/subjects/sh85127101"/>
+    <subject name="Urban population" uri="http://id.loc.gov/authorities/subjects/sh96010384"/>
+    <subject name="Urban renewal" uri="http://id.loc.gov/authorities/subjects/sh85141324"/>
+    <subject name="Urban transportation" uri="http://id.loc.gov/authorities/subjects/sh85141331"/>
+    <subject name="Urban violence" uri="http://id.loc.gov/authorities/subjects/sh2002002042"/>
+    <subject name="Urban-rural migration" uri="http://id.loc.gov/authorities/subjects/sh85141328"/>
+  </category>
+</topics>

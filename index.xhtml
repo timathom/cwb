@@ -1,4 +1,4 @@
-<?xml-stylesheet href="/basex/static/cwb/xphoneforms/build/xsl/xsltforms.xsl" type="text/xsl"?>
+<?xml-stylesheet href="/static/cwb/cwb/xphoneforms/build/xsl/xsltforms.xsl" type="text/xsl"?>
 <?xsltforms-options debug="yes"?>
 <?css-conversion no?>
 <?xml-model href="http://www.oxygenxml.com/1999/xhtml/xhtml-xforms.nvdl" schematypens="http://purl.oclc.org/dsdl/nvdl/ns/structure/1.0"?>
@@ -54,8 +54,10 @@
 				-->
             </xf:instance>
             <xf:instance
-                id="proto"
-                resource="desc.xml"/>
+                id="proto">
+                <data
+                    xmlns=""></data>
+            </xf:instance>
             <xf:instance
                 id="countries"
                 resource="countries.xml"/>
@@ -66,18 +68,11 @@
                 id="categories"
                 resource="categories.xml"/>
             <xf:instance
-                id="content"
-                resource="data/content-types.xml"/>
-            <xf:instance
-                id="carrier"
-                resource="data/carrier-types.xml"/>
-            <xf:instance
-                id="media"
-                resource="data/media-types.xml"/>
-            <xf:instance
                 id="state">
                 <data
                     xmlns="">
+                    <bodyColor></bodyColor>
+                    <fontColor></fontColor>
                     <active
                         control="title-a-input"></active>
                     <active
@@ -100,8 +95,12 @@
                         control="provision-place-input"></active>
                     <active
                         control="provision-provider-input"></active>
-                    <bodyColor></bodyColor>
-                    <fontColor></fontColor>
+                    <saved>false</saved>
+                    <status>
+
+                        <created></created>
+                        <modified></modified>
+                    </status>
                 </data>
             </xf:instance>
             <xf:instance
@@ -121,7 +120,24 @@
                 targetref="data[index('repeat-data')][@type = 'topic']/subjects"
                 validate="false">
                 <xf:resource
-                    value="concat('/search/', instance('desc')/*[index('repeat-data')][@type = 'topic']/category/*/@name)"/>
+                    value="concat('/search/', instance('desc')/*[index('repeat-data')][@type = 'topic']/category/*/@name)"/>              
+                <xf:action
+                    ev:event="xforms-submit-error">
+                    <xf:message>
+                        <xf:output
+                            value="concat('Error! ', event('error-type'))"/>
+                    </xf:message>
+                </xf:action>
+            </xf:submission>
+
+            <xf:submission
+                id="load-proto"
+                instance="proto"
+                method="get"
+                replace="instance"
+                resource="desc.xml"
+                serialization="none"
+                validate="false">
                 <xf:action
                     ev:event="xforms-submit-error">
                     <xf:message>
@@ -137,24 +153,19 @@
                 ref="instance('desc')"
                 replace="text"
                 resource="/save/new"
-                targetref="instance('state')/save">
+                validate="false"
+                targetref="instance('state')/status/saved">
                 <xf:action
-                    ev:event="xforms-submit-done">
-                    <xf:setvalue ref="instance('state')/status" value="''"/>
-                </xf:action>
+                    ev:event="xforms-submit">
+                    <xf:setvalue
+                        ref="instance('state')/status/created"
+                        value="now()"/>
+                </xf:action>                
                 <xf:action
                     ev:event="xforms-submit-error">
                     <xf:message>
                         <xf:output
-                            value="event('error-type')"/>
-                    </xf:message>
-                    <xf:message>
-                        <xf:output
-                            value="event('error-message')"/>
-                    </xf:message>
-                    <xf:message>
-                        <xf:output
-                            value="event('response-body')"/>
+                            value="concat('Error! ', event('error-type'))"/>
                     </xf:message>
                 </xf:action>
             </xf:submission>
@@ -207,21 +218,12 @@
             </xf:action>
 
             <xf:action
-                ev:event="DOMFocusIn"
-                ev:observer="title-a-input">
-                <xf:setvalue ref="instance('state')/active[@control = 'title-a-input']" value="true()"/>
+                ev:event="DOMActivate"
+                ev:observer="form-body"
+                if="not(instance('proto')/*)">
+                <xf:send
+                    submission="load-proto"/>
             </xf:action>
-            <xf:action
-                ev:event="DOMFocusIn"
-                ev:observer="title-b-input[@control = 'title-b-input']">
-                <xf:setvalue ref="instance('state')/active" value="true()"/>
-            </xf:action>
-            <xf:action
-                ev:event="DOMFocusIn"
-                ev:observer="title-c-input[@control = 'title-c-input']">
-                <xf:setvalue ref="instance('state')/active" value="true()"/>
-            </xf:action>
-
 
             <!-- <xf:load
                 ev:event="DOMFocusIn"
@@ -237,6 +239,7 @@
             style="background-color: {instance('state')/bodyColor};">
             <h1>Quick cataloging form</h1>
             <xf:group
+                id="form-body"
                 ref="instance('desc')">
                 <!-- Row for header -->
                 <div
@@ -248,9 +251,22 @@
                 <div
                     class="row">
                     <div
-                        class="col-md-12">
+                        class="col-md-6 left">
                         <xi:include
                             href="style.xml"/>
+                    </div>
+                    
+                    <div
+                        class="col-md-1 pull-right">
+                        <xf:trigger
+                            class="btn btn-primary">
+                            <xf:label>Save</xf:label>
+                            <xf:action
+                                ev:event="DOMActivate">
+                                <xf:send
+                                    submission="save-new"/>
+                            </xf:action>
+                        </xf:trigger>
                     </div>
                 </div>
                 <!-- Row for boolean inputs, etc. -->
@@ -291,7 +307,7 @@
                                             href="origin.xml"/>
                                     </td>
                                 </tr>
-                                <tr>
+                                <!-- <tr>
                                     <td>
                                         <xi:include
                                             href="content.xml"/>
@@ -308,7 +324,7 @@
                                         <xi:include
                                             href="media.xml"/>
                                     </td>
-                                </tr>
+                                </tr>-->
                             </tbody>
                         </table>
                     </div>
@@ -393,6 +409,6 @@
         <script crossorigin="anonymous" integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44=" src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
         <!-- Latest compiled and minified JavaScript -->
         <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" type="text/javascript"></script>
-        <script src="/basex/static/cwb/xphoneforms/build/js/setcaret.js" type="text/javascript"></script>
+        <script src="/static/cwb/cwb/xphoneforms/build/js/setcaret.js" type="text/javascript"></script>
     </body>
 </html>

@@ -404,3 +404,9 @@ display: none;
     margin-top:1%;
     
 }
+.pull-right{
+    position: fixed !important;
+    right:0px !important;
+    z-index: 5000;
+    color: white;
+}

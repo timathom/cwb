@@ -66,7 +66,7 @@ function cwb2:save-new(
         $update :=        
             <title id="{$id}" title="{$new}"/> :)                               
     return (
-        file:write("/opt/bitnami/apache-tomcat/webapps/basex/static/cwb/files/" || $id || ".xml", $data), $id
+        (: file:write("/opt/bitnami/apache-tomcat/webapps/basex/static/cwb/files/" || $id || ".xml", $data), :) $id
     )
 };
 
